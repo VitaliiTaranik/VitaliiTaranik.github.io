@@ -1,0 +1,27 @@
+@media screen and (max-width:1280px){
+
+}
+
+@media screen and (max-width:1024px){
+	
+
+@media screen and (max-width:768px){
+.header_nav a{display: none;}
+.header_info{margin-top: 60px;}
+.header_box_1{display: none;}
+.header_box_2{display: block;width: 70%;}
+.text{margin-top: -14px;font: 64px 'Built',arial,sans-serif;color: #000;letter-spacing: 7px;opacity: 0.1;}
+.offers{padding: 0px}
+.text_offers a{display: inline-block;}
+.presentation{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;display: none;}
+.copyraite{padding-right: 0; text-align: center;}
+.logo_footer{display: none;}
+}
+
+@media screen and (min-width:480px){
+	
+}
+
+@media screen and (min-width:320px){	
+	
+}
