@@ -1,0 +1,245 @@
+@import url(reset.css);
+body{
+	font:12px/1.6 Arial,Vedana,Tahoma,sans-serif;/*шрифт,размер шрифта текста,межстрочный интервал,шрифты*/
+	color:#5d5d5d;/*цвет*/
+	background:url(../images/Ветер2.jpg) no-repeat;/* #5d5d5d */
+	background-size: cover;/*отображать фоновый рисунок на всю страницу*/
+}
+
+a{
+	color:#fe9b00;/*цвет*/
+	text-decoration:none;
+	font-weight:bold;/*шрифт-ширина,жирный*/
+	text-transform:uppercase;/*текст должен быть заглавными буквами*/
+}
+
+.active,a:hover{/*класс,для всех ссылок:при наведении курсора должен меняться цвет в...-задаём какой цвет*/
+	color:#ffffff;/*цвет*/ /* #090909 */
+}
+
+p{
+	margin:8px 0;/*внешний отступ по вертикали и по горизонтали*/
+}
+
+h2,h3{
+	font-weight:bold;/*стиль шрифта,жирный*/
+	color:#ffffff;/*цвет*/
+	text-transform:uppercase;/*текст должен быть заглавными буквами*/
+}
+
+h2{
+	font-size:18px;/*шрифт-размер*/
+	padding-left:28px;/*внутренний отступ слева,внутреблочный*/
+	background:url(../images/arrow.png) 0 10px no-repeat;/*вставка картинки,отступ по горизонтали,отступ с верху,не повторять картинку*/
+	margin-bottom:11px;/*внешний отступ снизу*/
+}
+
+h3 {
+	font-size:12px;/*шрифт-размер*/
+	background:url(../images/arrow.png) no-repeat 0 6px;/*вставка картинки,отступ по горизонтали,отступ с верху,не повторять картинку,сместить слева на 0,сверху сместить на 4пкс*/
+	padding-left:22px;
+	margin-bottom:20px;
+}
+
+#top-line{
+	background:#090909;/*фоновый рисунок*/
+	height:16px;/*длинна*/
+	
+}
+
+#wrapper{
+	width:960px;/*ширина*/
+	margin:0 auto;/*внешний отступ по вертикали и по горизонтали*/
+}
+
+#header{
+	padding:20px 0 16px 0;/*внутренний отступ,сверху,справа,снизу,слева*/
+	border-bottom:1px solid #c0c0c0;/*нижнее подчёркивание,1 пиксель,сплошная,цвет*/
+	overflow:hidden;/*для того что-бы не схлопывались границы*/
+}
+
+#logo{
+	width:183px;/*ширина*/
+	height:100px;/*длинна*/
+	float:left;/*Определяет, по какой стороне будет выравниваться элемент, при этом остальные элементы будут обтекать его с других сторон*/
+}
+
+#menu{
+	float:right;/*Определяет, по какой стороне будет выравниваться элемент, при этом остальные элементы будут обтекать его с других сторон*/
+	margin-top:40px;/*внешний отступ сверху*/
+}
+
+#menu ul li{
+	float:left;/*Определяет, по какой стороне будет выравниваться элемент, при этом остальные элементы будут обтекать его с других сторон*/
+	margin-left:63px;/*внешний отступ слева*/
+}
+
+#header-image{
+	height:380px;/*/*длинна*/
+	background:url(../images/header-image.jpeg) no-repeat;/*вставка картинки,не повторять картинку*/
+	margin-top:20px;/*внешний отступ сверху*/
+	border-bottom:1px solid #c0c0c0;/*нижнее подчёркивание,1 пиксель,сплошная,цвет*/
+	padding-bottom:20px;/*внутренний отступ снизу*/
+	position:relative;
+}
+
+#black-box{
+	width:443px;
+	height:43px;
+	background:#090909;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bold;
+	color:#999898;
+	position:absolute;
+	left:35px;
+	bottom:60px;
+}
+
+#black-box p{
+	margin:14px 12px;
+	line-height:1;
+}
+
+#black-box a{
+	float:right;
+}
+
+#black-box a:hover{
+	color:#ffd798;
+}
+
+#content{
+	margin-top:20px;/*внешний отступ сверху*/
+	border-bottom:1px solid #c0c0c0;/*нижнее подчёркивание,1 пиксель,сплошная,цвет*/
+	overflow:hidden;/*для того что-бы не схлопывались границы*/
+	padding-bottom:24px;/*внутренний отступ снизу*/
+}
+
+.content-box{
+	width:285px;
+	float:left;
+	margin-right:52px;
+	color:#ffffff; /* #090909 */
+}
+
+.content-box h2{
+	border-bottom:5px solid #fe9b00;
+	padding-bottom:3px;/*внутренний отступ снизу*/
+	margin-bottom:16px;/*внешний отступ снизу*/
+}
+
+.content-box ul li{
+	background:url(../images/check.png) 0 3px no-repeat;/*вставка картинки,отступ по горизонтали,отступ с верху,не повторять картинку*/
+	padding-left:28px;/*внутренний отступ слева*/
+	margin-bottom:12px;/*внешний отступ снизу*/
+	line-height:1.3;/*межстрочный интервал для списка*/
+}
+
+.talic-text{
+	font-style:italic;/*шрифт текста,курсив*/
+	color:#ffffff;/*цвет текста*/
+	margin-top:20px;/*внешний отступ сверху*/
+}
+
+#portfolio{
+	margin-top:20px;/*внешний отступ сверху*/
+	padding-bottom:33px;/*внутренний отступ снизу*/
+	border-bottom:1px solid #c0c0c0;/*нижнее подчёркивание,1 пиксель,сплошная,цвет*/
+	overflow:hidden;/*для того что-бы не схлопывались границы*/
+}
+
+.portfolio-image{
+	width:215px;/*ширина*/
+	height:135px;/*высота*/
+	float:left;/*обтекать слева,все блоки выстроились в ряд*/
+	margin-right:33px;/*внешний отступ справа*/
+	position:relative;/*относительное позиционирование /1/*/
+}
+
+#content-box,#portfolio-image{
+	margin-right:0;/*внешний отступ справа*/
+}
+
+.portfolio-image a{
+	position:absolute;/*относительное позиционирование /1/*/
+	right:0;
+	bottom:0;
+	color:#ffffff;
+	display:block;/*для отображения текста в блоке*/
+	background:#fe9b00;
+	padding:4px 10px;/*внутренний отступ:верх-низ,лево-право.*/
+	line-height:1;/*межстрочный интервал конкретно для этих ссылок,независимо от общего интервала*/
+}
+
+#bottom-row{
+	margin-top:20px;/*внешний отступ сверху*/
+	overflow:hidden;/*для того что-бы не схлопывались границы*/
+}
+
+#blog{
+	width:670px;/*ширена*/
+	float:left;/*обтекать слева,все блоки выстроились в ряд*/
+	color:#ffffff;
+}
+
+#social{
+	width:220px;/*ширена*/
+	float:right;/*выравнивание,справа*/
+}
+
+#social ul li{
+	float:left;/*выравнивание,слева*/
+	margin-right:12px;/*внешний отступ справа*/
+}
+
+#footer{
+	background:#e2e2e2;/*фоновый рисунок*/
+	padding:32px 0 36px 0;/*внутренний отступ:сверху,справа,снизу,слева*/
+	margin-top:33px;/*внешний отступ сверху*/
+}
+
+#footer-content{
+	width:960px;/*ширена*/
+	margin:0 auto;/*выравнивание по центру*/
+	position:relative;/*относительное позиционирование /2/*/
+}
+
+#footer-content a{
+	color:#5d5d5d;
+	font-weight:normal;/*ссылки нормальным шрифтом*/
+	text-transform:capitalize;/*у всех слов первые буквы в этом блоке будут заглавные а остальные строчные*/
+}
+
+#footer-content a:hover{
+	text-decoration:underline;/*для ссылок создать нижнее подчёркивание*/
+}
+
+.clear{
+	clear:both;/*список ul остаёться на своей строке а тег <p> переноситься на другую,так как добавили пустой блок <div> с классом clear:both;*/
+}
+
+#footer-content ul li{
+	float:left;/*выровнять все ссылки в ряд*/
+	padding:0 7px 0 7px;/*внутренний отступ:сверху,справа,снизу,слева*/
+	border-left:1px solid #5d5d5d;/*рамка с левой стороны,размер,сплошная,цвет*/
+	line-height:1;/*убираем межстрочный интервал,рамка в таблице становиться меньше*/
+}
+
+#footer-content ul li:first-child{
+	padding-left: 0px;/*применяеться не для всех элементов в списке,а конкретно для первого элемента*/
+	border:none;/*рамка для первого элемента отменяеться*/
+}
+
+#footer-content p{
+	margin:3px 0 0 0;
+}
+
+#logo-footer{
+	width:119px;
+	height:64px;
+	background:url(../images/logo_footer.png) no-repeat;
+	position:absolute;/*относительное позиционирование /2/*/
+	top:-12px;
+	right:0;
+}
