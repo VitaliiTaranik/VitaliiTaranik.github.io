@@ -1,0 +1,144 @@
+
+/* 1601 - 1920 */
+@media screen and (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media screen and (max-width:1600px){	
+
+}
+
+/* 961 - 1368 */
+@media screen and (max-width:1368px){
+	.footer-menu-list__item{
+		margin-right: 15px;
+		font-size: 12px;
+	}
+}
+
+/* 769 - 960 */
+@media screen and (max-width:960px){
+	.section-footer{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.footer-menu{
+		margin: 20px auto;
+	}
+}
+
+/* 481 - 768 */
+@media screen and (max-width:768px){
+	.name{
+		font-size: 10px;
+	}
+
+	.small-name{
+		font-size: 7px;
+	}
+
+	.menu{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.menu-list__item{
+		font-size: 10px;
+	}
+
+	.hero{
+		padding: 70px 5px 5px 5px;
+	}
+
+	.hero-title {
+		font-size: 35px;
+	}
+
+	.hero-subtitle{
+		font-size: 20px;
+	}
+
+	.hero-description{
+		font-size: 14px;
+	}
+
+	.hero-btn{
+		display: inline-block;
+		padding: 10px 10px;
+		font-size: 12px;
+	}
+
+	.about-me{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.about-me-photo{
+		width: 100%;
+		height: 500px;	
+		-webkit-background-size: 50%;
+		background-size: 50%;
+		background-position: center;
+	}
+
+	.about-me-story{
+		width: 100%;
+		padding: 0 5px 30px;
+		text-align: center;
+	}
+
+	
+}
+
+/* 320 - 480 */
+@media screen and (max-width:480px){
+	.menu-list{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.menu-button{
+		margin-top: 15px;
+		padding: 5px 10px;
+	}
+	.menu-list__item{
+		margin-right: 10px;
+	}
+
+	.hero{
+		text-align: center;
+		background: none;
+	}
+
+	.hero-sicial ul{
+		justify-content: center;
+	}
+
+	.project-cards{
+		justify-content: center;
+	}
+
+	.about-me-photo{
+		-webkit-background-size: 65%;
+		background-size: 65%;
+	}
+	.footer-info_item,.footer-menu-button{
+		font-size: 10px;
+	}
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
