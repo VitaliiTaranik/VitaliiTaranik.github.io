@@ -1,0 +1,727 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: url(../images/bg_body.png) no-repeat 50% 0 #0e0e0e;
+	font: 12px/1.67 Arial,Helvetica,sans-serif;
+	padding: 40px 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+									/*header begin*/
+
+
+header{
+background: #fff;
+height: 97px;
+-o-border-radius: 7px 7px 0 0;/*закругление для рамки,для оперы*/
+-moz-border-radius: 7px 7px 0 0;/*закругление для рамки,для мозилы*/
+-webkit-border-radius: 7px 7px 0 0;/*закругление для рамки,и какой то вэб кит движок*/
+border-radius: 7px 7px 0 0;/*закругление для рамки*/
+}
+
+header h1{
+	float: left;
+	margin: 30px 0 0 40px;
+}
+
+.tel{
+	background: url(../images/bg_tel.png) repeat-x 0 0;
+	padding: 0px 27px 3px 85px;
+	font-size: 18px;
+	font-weight:bold;
+	color: #c0c0c0;
+	float: right;
+}
+
+nav{
+	float: right;
+	clear: right;
+}
+
+nav li{
+	float: right;
+	margin: 20px 20px 0px 5px;
+}
+
+nav li a {
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 3px 15px;
+}
+
+nav li a:hover{/*только если задаёщь бекграунд тогда пишеться ховер, а если просто цвет тогда current*/
+	background: url(../images/bg_li_current.gif) repeat-x 0 0;
+	color: #fff;
+	border-radius: 4px;
+}
+
+nav li.current a{
+	background: url(../images/bg_li_current.gif) repeat-x 0 0;
+	color: #fff;
+	border:1px solid #00224b;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+									/*header end*/
+
+@font-face{
+	font-family: treb;
+	src:url(fonts/treb.ttf);
+  font-family: nevis;
+  src:url(fonts/nevis.ttf);
+}
+
+.slider-block{
+	background: url(../images/bg_slider_block_1.png) no-repeat 0 0;
+	height: 251px;
+	padding: 85px 50px 0 50px;
+	color: #fff;
+	font-size: 29px;
+	font-family: treb;
+  line-height: 34px;/*межстрочный интервал*/
+}
+
+.fs35{
+  font-size: 35px;
+  font-style: bold;
+  text-transform: uppercase;
+  margin: 10px 0 35px;
+  letter-spacing: -2px;/*буквы в строке становяться кучнее,если минус,а если плюс растянутее*/
+}
+
+									/*begin slider*/
+.flexslider {
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  float: right;
+  width: 396px;
+  height: 268px;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.flexslider .slides img {
+  height: auto;
+}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.loading .flex-viewport {
+  max-height: 300px;
+}
+.carousel li {
+  margin-right: 5px;
+}
+.flex-direction-nav {
+  *height: 0;
+}
+.flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 30px;
+  height: 40px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+.flex-direction-nav a.flex-next:before {
+}
+.flex-direction-nav .flex-prev {
+  left: -50px;
+  text-indent: 9999px;
+  background: url(../images/arrow_left.png) no-repeat 0 0;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+  text-indent: 9999px;
+  background: url(../images/arrow_right.png) no-repeat 0 0;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+.flex-direction-nav .flex-disabled {
+  opacity: 0!important;
+  filter: alpha(opacity=0);
+  cursor: default;
+}
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+.flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+}
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+.flex-control-nav {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: default;
+}
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+  }
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+  }
+}
+									/*end slider*/
+
+.started{
+  background: url(../images/arrow_bold.png) no-repeat 95% 55%,url(../images/bg_started.gif) repeat-x 0 0;/*на бг несколько картинок,90 проц (практически в конце) по иксу и 50 проц (по центру)*/
+  font-size:20px;
+  color:#b90016;
+  text-transform:uppercase;
+  padding: 11px 50px 11px 25px;
+  -o-border-radius: 7px;/*закругление для рамки,для оперы*/
+  -moz-border-radius: 7px;/*закругление для рамки,для мозилы*/
+  -webkit-border-radius: 7px;/*закругление для рамки,и какой то вэб кит движок*/
+  border-radius: 7px;/*закругление для рамки*/
+  font-weight: bold;
+}
+
+.blurbs{
+  background: #ededed;
+  padding: 35px 0 22px 50px;
+  border-bottom: 1px solid #cecece;
+}
+
+.blurbs li{
+  float:left;
+  padding: 12px 0 12px 90px;
+  width: 150px;
+  margin-right: 74px;
+}
+
+.blurbs li:last-child{
+  margin-right: 0;
+}
+
+.blurbs h3{
+  font-size: 15px;
+  color: #575757;
+}
+
+.blurbs li p{
+  font-size: 11px;
+}
+
+.blurbs li.many{
+  background: url(../images/many_blurbs.png) no-repeat 0 50%;
+}
+
+.blurbs li.time{
+  background: url(../images/time_blurbs.png) no-repeat 0 50%;
+}
+
+.blurbs li.phone{
+  background: url(../images/phone_blurbs.png) no-repeat 0 50%;
+}
+
+.middle-block{
+  background: #fff;
+  padding: 40px 35px 50px 40px;
+}
+
+.middle-block li{
+  float: left;
+  width: 265px;
+  margin-right: 45px;
+}
+
+.middle-block li:last-child{
+  margin-right: 0;
+}
+
+h2.title,.middle-block h2{
+  font-size: 25px;
+  color: #585858;
+  margin-bottom: 24px;
+}
+
+.middle-block p{
+  padding: 25px 0;
+}
+
+.middle-block a.read-more{
+  font-family: nevis;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  padding: 8px 17px 8px 10px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border:1px solid #ccc;
+  background-image: linear-gradient(to top,#e5e5e5,#fefefe);
+  margin-top: -5px;
+}
+
+.middle-block a.read-more:hover{
+  background-image: linear-gradient(to top,#fefefe,#e5e5e5);
+}
+
+.disign{
+  list-style-image: url(../images/arrow_design.png);
+  list-style-position: inside;/*что-бы стрелки не выходили за границы класса*/
+}
+
+.disign li{
+  border-bottom: 1px dotted #838383;
+  padding: 5px 0;
+}
+
+.disign li:last-child{
+ border-bottom: none;
+}
+
+.disign a{
+  color: #0f4db6;
+}
+
+footer{
+  background:url(../images/bg_top_footer.gif) repeat-x #ededed;
+  -o-border-radius: 0px 0px 6px 6px;
+  -moz-border-radius: 0px 0px 6px 6px;
+  -webkit-border-radius:0px 0px 6px 6px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.top-footer{
+  padding: 25px 0 10px 41px;
+  border-bottom: 1px solid #cccccc ;
+}
+
+.top-footer > li{/*непосредственно наводяться в классе топ футтер лишкам*/
+  float: left;
+}
+
+.top-footer h3{
+  font-size: 15px;
+  font-weight:bold;
+  color: #585858;
+  margin-bottom: 30px;
+}
+
+.browse-site{
+  width: 120px;
+}
+
+.browse-site a{
+  color: #4f4f4f;
+}
+
+.our-test{
+  width: 315px;
+  margin: 0 60px 0 115px;
+}
+
+.our-test .bold{
+  color: #000;
+  font-weight: bold;
+}
+
+.our-blog{
+  width: 286px;
+  line-height:15px;
+}
+
+.our-blog .blue{
+  color:#0f4db6;
+  font-weight: bold;
+}
+
+.data{
+  margin-top: 17px;
+}
+
+.bottom-footer{
+  padding: 25px 41px 26px;
+  border-top: 1px solid #fff;
+}
+
+.bottom-footer .logo{
+  float:right;
+}
+
+.social{
+  float:right;
+  margin-right: 58px;
+}
+
+.social li{
+  float:left; 
+  margin-right: 15px;
+}
+
+.social a{
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/sprites.png) no-repeat 0 0;
+}
+
+.social a.in{
+  background-position: -18px 0;
+}
+
+.social a.f{
+  background-position: -36px 0;
+}
+
+
+
+                             /*ABOUT*/
+.page-block{
+  background:url(../images/bg_about.png) no-repeat;
+  color: #fff;
+  padding: 20px 41px;
+  font-size: 20px;
+}
+
+.page-block p{
+  float: right;
+  font-style: italic;
+  line-height: 40px;/*выровнять текст (две фразы на одном уровне) по центру*/
+}
+
+.page-block h1{
+  font-size: 25px;
+}
+
+.main-block{
+  background:url(../images/bg_main_block.gif) repeat-y 700px 0 #fff;/*линия начинаеться от левого края с 700 пикс по у а по х не распространяеться*/
+  padding-bottom: 70px;  
+}
+
+main{
+  width: 631px;
+  float: left;
+  margin-left: 41px;
+}
+
+main p{
+  margin-top: 40px;
+  line-height: 24px;
+}
+
+.side-bar{
+  float: right;
+  width: 219px;
+  margin-right: 41px;
+}
+
+.sb-block h3.title{
+  font-size: 15px;
+  font-weight: bold;
+  color:#000;
+  background-image: linear-gradient(to right,#cfcfcf,#fff);/*настройка гардиент цвета в сайт баре на заглавиях от серого к белому*/
+  margin: 30px 0px 30px -21px;
+  padding-left: 21px;
+}
+
+.sb-block #sb-block-1{
+  font-weight: bold;
+}
+
+.sb-block{
+  margin-left: 21px;
+}
+                                     /*END ABOUT*/
+
+
+                                     /*ADD SERVICES*/
+.flright{
+ float: right;
+}
+
+.top-gradient{
+  background: url(../images/bg_top_services.gif) repeat-x 0 0 #fff;
+}
+
+.benefits{
+  background: url(../images/bg_top_services.gif) repeat-x 0 0 #fff;
+  padding: 25px 0px 50px 41px;
+}
+
+.benefits li{
+  background: url(../images/benefits_li.png) no-repeat 0 50%;
+  width: 340px;
+  padding-left: 45px;
+  margin: 0 80px 40px 0;
+  float: left;
+}
+
+.benefits li:nth-child(even){/*задать какое нибудь свойство для каждого чётного элемента,тобиш каждого второго*/
+  margin-right: 0;
+}
+                                /*END SERVICES*/
+
+
+                                /*ADD PORTFOLIO*/
+.page-block ul{
+  float: right;
+}
+
+.page-block li{
+  float: left;
+  margin-right: 30px;
+}
+
+.page-block li:last-child{
+  margin-right: 0;
+}
+
+.page-block li a{
+  color: #93daff;
+  font-size: 13px;
+}
+
+.page-block li a.current{
+  color: #fff;
+}
+
+.portfolio .middle-block{
+  padding-top: 30px;
+}
+
+.portfolio .middle-block li{
+  margin-right: 41px;
+}
+
+.portfolio .middle-block .middle-block-3{
+  margin-right: 0;
+}
+
+.pagination{
+  background: url(../images/bg_top_services.gif) repeat-x 0 0 #fff;
+  padding: 21px 0 33px 41px;
+}
+
+.pagination li{
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.pagination li a{
+  color:#0f4db6;
+  font-weight: bold;
+}
+
+.pagination li a.current{
+  color: #0e0e0e;
+}
+                                /*END PORTFOLIO*/
+
+
+                                /*ADD CONTACT*/
+form{
+  width: 385px;
+}
+
+label{
+ font-style: 13px;
+ color:#4f4f4f;
+}
+
+input[type="text"], textarea{
+  border: 1px solid #c9c9c9;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: url(../images/bg_top_services.gif) repeat-x 0 0 #fff;
+  width: 100%;
+  padding: 8px 3px;
+  resize:none;/*это свойство для того чтобы пользователь на странице формы не мог растянуть окно с пожеланиями или обратным сообшением за пределы сайта или вёрстки*/
+}
+
+.sb-block a{
+  color:#4f4f4f;
+}
+
+.soc-contact li{
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.soc-contact a{
+  display: inline-block;
+  width: 30px;
+  height:30px;
+  background: url(../images/sprites.png) no-repeat 0 -16px;
+}
+
+.soc-contact a.t{
+  background-position: -31px -16px;
+}
+
+.soc-contact a.f{
+  background-position: -62px -16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+                                /*END CONTACT*/
+
+.blurbs:after,
+.middle-block:after,
+.top-footer:after,
+.main-block:after,
+.benefits:after{/*при захлопывании блоков*/
+  content:"";/*пустота*/
+  display: table;
+  clear: both;
+}
