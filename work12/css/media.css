@@ -1,0 +1,78 @@
+
+@media screen and (min-width:2560px){действие происходит до этого разрешения экрана
+	.blockquote_1{width: 35%;}
+	.blockquote_2{width: 30%;}
+	.last_works{height: 1200px;}
+}
+
+@media screen and (max-width:1280px){
+
+}
+
+@media screen and (max-width:1170px){
+	
+}
+
+@media screen and (max-width:1024px){
+	.menu_box_1 li a {font-size: 16px;}
+	.menu_box_1 li {padding: 0px 15px;}
+	.image_line:before{display: none;}
+	.last_works{height: 600px;}
+	.tematik_image_portfolio {width: 100%}
+	.tematik_image_portfolio div{width: 50%;height: 320px;}
+}
+
+@media screen and (max-width:768px){
+	.header_box{background-size: cover;}
+	blockquote {width: 52%;}
+	.blockquote_header{font-size: 2vw;}
+	.blockquote_2 p{font-size:1.5vw;line-height:22px;}
+	#filters li{display: block;}
+	.last_works{height: 600px;}
+	.contacts{-webkit-background-size: cover;background-size: cover;}
+	.menu_page_2_block li {padding: 10px 0px;}
+	.tematik_image_portfolio {width: 100%}
+	.tematik_image_portfolio div{width: 50%;height: 320px;}
+}
+
+
+@media screen and (max-width:480px){
+	.hgroup h1 {font-size: 19vw;}
+	blockquote {width: 90%;}
+	.blockquote_header{font-size: 5vw;}
+	.menu_box_1 li {padding: 0px;}
+	.menu_box_1 li a {font-size: 10px;padding: 0px 5px;}
+	.menu_box_2 ul li {padding: 0px;}
+	.active span {border-left: none;border-right: none;color: #a1813d;}
+	.title h2,.social_text,.contact_text{font-size: 6vw;}
+	.forms_block{width: 100%;}
+	.forms_box {width: 100%;padding-bottom: 50px;}
+	.text p{font-size: 3vw;}
+	.story{-webkit-background-size: 500%;background-size: 500%;}
+	.blockquote_2 p{font-size:2.5vw;line-height:12px;}
+	.last_works{height: 400px;}
+	.forms_block,.services_block,.contact_box_1{-webkit-flex-direction: column;-moz-flex-direction: column;-ms-flex-direction: column;-o-flex-direction: column;flex-direction: column;align-items: center;}
+	.menu_box_1 ul {justify-content: center;}
+	.services_box{width: 80%;}
+	.services_block{padding-top: 40px}
+	.services_box li span{font-size: 4vw;}
+	.h4{font-size: 4.5vw;}
+	.social_menu li a {font-size: 6vw;}
+	.arrow{right: 15px;}
+	.arrow img{width: 30px;}
+}
+
+@media screen and (max-width:425px){
+	.image_line:before{display: none;}
+	.tematik{height: 100%;}
+	.tematik_image_portfolio{width: 100%;}
+	.tematik_image_portfolio div{width: 100%;height: 100%;}
+}
+
+@media screen and (max-width:375px){
+	
+}
+
+@media screen and (max-width:320px){
+
+}
