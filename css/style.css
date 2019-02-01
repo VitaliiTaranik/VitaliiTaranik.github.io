@@ -431,7 +431,7 @@ ul li:nth-child(5) a span::after{
 }
 
 .work-01{
-	background: url(../work01/work01.jpg) no-repeat top/cover;
+	background: url(../img/works/work01.jpg) no-repeat top/cover;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
