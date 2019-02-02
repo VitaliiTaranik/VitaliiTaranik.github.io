@@ -1,0 +1,149 @@
+
+/* 1601 - 1920 */
+@media screen and (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media screen and (max-width:1600px){	
+
+}
+
+/* 961 - 1368 */
+@media screen and (max-width:1368px){
+	.offer-bg{
+		font-size: 200px;
+	}
+	.offer-title{
+		margin-left: 80px;
+		margin-top: 50px;
+	}
+	.offer-text{
+		margin-left: 100px;
+	}
+	.offer-btn{
+		margin-left: 240px;
+	}
+	.next{
+		width: 220px;
+		font-size: 200px;
+		left: 77%;
+	}
+	.brah{
+		display: none;
+	}
+	.offer-title:after{
+		top: 43px;
+	}
+	.service{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.service-item{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+}
+
+/* 769 - 960 */
+@media screen and (max-width:960px){
+	.next{
+		display: none;
+	}
+	.info{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.info > *{
+		margin-bottom: 30px;
+	}
+	.info-up{
+		position: absolute;
+    	right: 0;
+    	bottom:0;
+	}
+}
+
+/* 481 - 768 */
+@media screen and (max-width:768px){
+	.offer-bg{
+		font-size: 100px;
+		position: relative;
+	}
+	header{
+		height: auto;
+		padding-top: 60px;
+	}
+	.header .container{
+		height: auto;
+		padding-bottom: 150px;
+	}
+	nav{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+	}
+	nav .logo{
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.hamburger{
+		position: relative;
+		top: auto;
+		right: auto;
+		float: none;
+		margin-top: 14px;
+	}
+	.offer{
+		position: relative;
+		left: auto;
+		top: auto;
+		padding-top: 300px;
+	}
+	.offer-title{
+		font-size: 35px;
+		width: auto;
+		margin-left: auto;
+	}
+	.offer-title:after {
+    	top: 28px;
+    	width: 20px;
+    	height: 4px;
+	}
+	.offer-btn{
+		margin-left: 0;
+	}
+}
+
+/* 320 - 480 */
+@media screen and (max-width:480px){
+	.offer-title:after {
+    	right: 50px;
+	}
+	.offer-text {
+		width: auto;
+    	font-size: 15px;
+    	margin: 0 auto;
+	}
+	.section-title-title {
+    	font-size: 60px;
+	}
+	.services {
+    	padding: 100px 0px 100px 0px;
+    }
+    .footer {
+    	padding: 100px 0px;
+    }
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
