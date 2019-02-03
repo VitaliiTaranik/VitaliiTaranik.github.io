@@ -520,6 +520,16 @@ ul li:nth-child(5) a span::after{
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
+.work-19{
+	background: url(../img/works/work19.jpg) no-repeat top/cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.work-20{
+	background: url(../img/works/work20.jpg) no-repeat top/cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
 
 .project-category{
 	display: block;

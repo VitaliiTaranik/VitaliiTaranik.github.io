@@ -1,0 +1,78 @@
+
+/* 1601 - 1920 */
+@media screen and (max-width:1920px){	
+	.image-column {
+    	background: url(../img/girl.jpg) no-repeat 50%/cover;
+	}
+}
+
+/* 1369 - 1600 */
+@media screen and (max-width:1600px){	
+	.image-column {
+    	background: url(../img/girl.jpg) no-repeat 10%/cover;
+	}
+}
+
+/* 961 - 1368 */
+@media screen and (max-width:1368px){
+	.header{
+		height: 85vh;
+}
+	.image-column {
+    	background: url(../img/girl.jpg) no-repeat 50% 20%;
+    	background-size: 90%;
+	}
+}
+
+/* 769 - 960 */
+@media screen and (max-width:960px){
+	.intro{
+		width: 200%;
+	}
+}
+
+/* 481 - 768 */
+@media screen and (max-width:768px){
+	.header{
+		height: 80vh;
+	}
+
+	.text-column {
+   	 width: 100%;
+ 	}
+
+ 	.intro{
+		width: 80%;
+	}
+
+	.image-column{
+		display: none;
+	}
+
+	.offer{
+		margin-top: 10vh;
+	}
+
+	.triggers{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.triggers-item{
+		margin-top: 20px;
+	}
+
+	.triggers-item {
+    	padding: 0px 75px;
+    }
+}
+
+/* 320 - 480 */
+@media screen and (max-width:480px){
+	
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
