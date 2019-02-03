@@ -1,0 +1,138 @@
+
+/* 1601 - 1920 */
+@media screen and (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media screen and (max-width:1600px){	
+
+}
+
+/* 991 - 1368 */
+@media screen and (max-width:1368px){
+	.phone-link{
+		font-size: 2.2rem;
+	}
+
+	.feedback-form{
+		padding: 3rem 5rem;
+	}
+
+	.feedback .fotorama{
+		margin-bottom: 3rem;
+	}
+
+}
+
+/* 769 - 990 */
+@media screen and (max-width:991px){
+	.main{
+		background-position: bottom left;
+    	height: 100%
+	}
+
+	.main-title{
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+
+	.main-content{
+		margin-top: 3rem;
+	}
+
+	.price-block{
+		margin-bottom: 2rem;
+	}
+
+	.price-button{
+		text-align: center;
+		padding: 2rem 0rem;
+	}
+
+	.price-header-btn{
+		margin-bottom: 2rem;
+	}
+
+	.section-header_light{
+		margin-bottom: 0;
+	}
+
+	.hand{
+		display: none;
+	}
+
+	.all-inclusive .media{
+		text-align: center;
+	}
+
+	.problems-women{
+		display: none;
+	}
+
+	.problems-list{
+		margin-bottom: 2rem;
+		min-height: auto;
+	}
+
+	.tour{
+		background: none;
+		background-color: #f5f5f5;
+	}
+
+	.contacts{
+		background: none;
+	}
+	
+}
+
+/* 577 - 768 */
+@media screen and (max-width:767px){
+	.header, .wrap-block{
+		text-align: center;
+	}
+
+	.scheme{
+		background: none;
+		text-align: center;
+	}
+
+	.scheme-block{
+		min-height: 20rem;
+		margin-bottom: 3rem;
+	}
+}
+
+/* 320 - 577 */
+@media screen and (max-width:576px){
+	.main-title h1{
+		font-size: 2.2rem;
+	}
+
+	.feedback-prev-btn{
+		left: 1.5rem;
+	}
+
+	.feedback-next-btn{
+		right: -1.5rem;
+	}
+
+	footer{
+		text-align: center;
+	}
+	footer .logo img,
+	footer .footer-dev-logo{
+		text-align: center;
+	}
+
+	.footer-contacts{
+		margin: 2rem auto;
+	}
+	
+	.footer-dev-logo{
+		margin-top: 2rem;
+	}
+
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
