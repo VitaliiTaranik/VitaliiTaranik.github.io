@@ -510,6 +510,11 @@ ul li:nth-child(5) a span::after{
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
+.work-17{
+	background: url(../img/works/work17.jpg) no-repeat top/cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
 
 .project-category{
 	display: block;
@@ -643,6 +648,7 @@ ul li:nth-child(5) a span::after{
 
 .footer-menu-button{
 	border: 1px solid #8d8d8e;
+	outline: none;
 }
 
 .footer-menu-button:hover{
