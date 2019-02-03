@@ -1,0 +1,114 @@
+
+/* 1601 - 1920 */
+@media screen and (max-width:1920px){	
+
+}
+
+/* 1280 - 1400 */
+@media screen and (max-width:1400px){	
+	.container{
+		width: 85%;
+	}
+}
+
+/* 1080 - 1280 */
+@media screen and (max-width:1280px){
+	.offer-ilustration{
+		border: none;
+	}
+
+	.merits-item-second,.merits-item-third{
+		margin-left: 0;
+	}
+
+	.merits-item-second::after,.merits-item-first::after{
+		display: none;
+	}
+
+	.offer-ilustration{
+		min-width: 450px;
+		height: 450px;
+		top: -40px;
+	}
+}
+
+/* 960 - 1080 */
+@media screen and (max-width:1080px){
+	.offer{
+		margin-top: 160px;
+	}
+
+	.offer-ilustration{
+		min-width: 400px;
+		height: 400px;
+		top: -40px;
+	}
+
+	.content-wrapper{
+		display: inline-block;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.form{
+		margin-top: 50px;
+	}
+}
+
+/* 481 - 960 */
+@media screen and (max-width:960px){
+	.offer-ilustration{
+		display: none;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.offer-list{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.offer-advantage{
+		margin-top: 5px;
+	}
+
+	.btn-header{
+		display: none;
+	}
+}
+
+/* 320 - 480 */
+@media screen and (max-width:480px){
+	.offer {
+   	 margin-top: 60px;
+	}
+
+	.form-body{
+		width: 100%;
+	}
+
+	.merits-item{
+		padding-left: 0;
+		padding-top: 100px;
+		text-align: center;
+		background-position: center top;
+	}
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
