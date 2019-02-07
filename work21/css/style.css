@@ -1,0 +1,299 @@
+@import"normalize.css";
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body{background: #8d66ab;font-family: 'Montserrat', sans-serif;margin: 0;padding: 0; color: #fff;} 
+ul, li{display: block;margin: 0;padding: 0;list-style-type:none;transition: all 0.5s ease;}
+a{ text-decoration: none;transition: all 0.5s ease;}
+h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+.flex{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;}
+.left{text-align: left;}
+.right{text-align: right;}
+.clearfix:after{content:'';display: block;clear: both;}
+	
+/********* FONTS ( ШРИФТЫ )***************/
+/********* FONTS END ***********/
+
+/********* SPECIALIZATION ( СПЕЦИФИКАЦИЯ )***********/
+/********* SPECIALIZATION END ***********/
+
+/********** VARIABLE ( ПЕРЕМЕННЫЕ )*********/
+.shadow{
+	box-shadow: 2px 2px 0px #000;
+}
+
+.container{
+	width: 1600px;
+	height: 100vh;
+	margin-left: 15%;
+}
+/********** VARIABLE END*********/
+
+
+/*-moz-transform:  Для Firefox */
+/*-ms-transform:  Для IE */
+/*-webkit-transform:  Для Safari, Chrome, iOS */
+/*-o-transform:  Для Opera */
+
+
+/* ========= header ============= */
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: #8d66ab;
+	overflow: hidden;
+}
+
+.bg-element-1{
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	bottom: -350px;
+	left: -290px;
+	background: url(../img/bg1.png) repeat;
+	transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+}
+
+.bg-element-2{
+	width: 1200px;
+	height: 1200px;
+	position: absolute;
+	bottom: -750px;
+	right: -350px;
+	background: url(../img/bg1.png) repeat;
+	transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+}
+
+.bg-element-3{
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+	top: -700px;
+	right: 130px;
+	background: transparent;
+	border: 3px dotted #bba3cd;
+	transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+}
+
+.bg-element-4{
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+	top: 470px;
+	right: 100px;
+	background: transparent;
+	border: 3px dotted #bba3cd;
+	transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-webkit-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-moz-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-o-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+	-ms-transform: rotate(30deg) scale(1) skew(1deg) translate(0px);
+}
+
+.bg-element-5{
+	width: 5px;
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	left: 30%;
+	background: #fff;
+}
+
+.bg-element-6{
+	width: 5px;
+	height: 150px;
+	position: absolute;
+	bottom: 0px;
+	right: 10%;
+	background: #fff;
+}
+
+.bg-element-7{
+	width: 32px;
+	height: 4px;
+	position: absolute;
+	top: 10%;
+	right: 46%;
+	background: #fff;
+}
+
+.bg-element-8{
+	width: 32px;
+	height: 4px;
+	position: absolute;
+	bottom: 5%;
+	right: 40%;
+	background: #fff;
+}
+
+.bg-element-9{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	background: #fff;
+}
+
+.bg-element-9::after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 20px;
+	background: #fff;
+	box-shadow: 2px 2px 0px #000;
+}
+
+.bg-element-9::before{
+	content: "";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 20px;
+	background: #fff;
+	box-shadow: 2px 2px 0px #000;
+}
+
+.bg-man{
+	width: 471px;
+	height: 680px;
+	background: url(../img/man.png);
+	position: absolute;
+	right: 25%;
+	margin-right: -235px;
+	top: 50%;
+	margin-top: -340px;
+}
+
+.bg-man::before{
+	content: "";
+	width: 520px;
+	height: 520px;
+	display: block;
+	margin-left: -29px;
+   margin-top: 86px;
+	background: transparent;
+	border: 3px dotted #fff;
+	border-radius: 50%;
+}
+
+.man-circle{
+	width: 285px;
+	height: 285px;
+	position: absolute;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.man-circle_left{
+	top: 205px;
+	left: 30px;
+	transition: all 0.5s ease;
+}
+
+.man-circle_right{
+	top: 205px;
+	right: 30px;
+	transition: all 0.5s ease;
+}
+
+.man-circle_right:hover{
+	right: 0px;
+}
+
+.man-circle_left:hover{
+	left: 0px;
+}
+
+.logo{
+	display: block;
+	position: absolute;
+	top: 12%;
+	margin-top: -20px;
+	left: 11%;
+	margin-left: -50px;
+}
+
+.offer{
+	position: absolute;
+   top: 55%;
+   margin-top: -220px;
+}
+
+.offer-intro span{
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.offer-intro{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.offer-tittle{
+	position: relative;
+	font-size: 45px;
+	font-weight: 900;
+	margin-top: 125px;
+	z-index: 1;
+}
+
+.offer-tittle span{
+	position: absolute;
+    bottom: -13px;
+    left: -32px;
+    font-size: 100px;
+    color: #a970d4;
+    z-index: -1;
+}
+}
+
+
+.offer-tittle__addition{
+	display: block;
+	font-size: 21px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+
+.offer-btn{
+	display: block;
+	position: absolute;
+	margin-top: 137px;
+	padding: 20px 25px;
+	font-size: 17px;
+	font-weight: 900;
+	color: #8d66ab;
+	border: 0px;
+	cursor: pointer;
+	z-index: 1;
+	transition: all 0.5s ease;
+}
+
+.offer-btn:hover{
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.4)
+}
+
+
+/* ========= header end ========= */
+
+/* ========= main =============== */
+/* ========= main end =========== */
+
+/* ========= footer ============= */
+/* ========= footer end ========= */
