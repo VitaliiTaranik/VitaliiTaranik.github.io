@@ -37,8 +37,9 @@ section{
 /* ========= header ============= */
 
 .container{
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
+	padding: 0px 10px;
 }
 
 .header{

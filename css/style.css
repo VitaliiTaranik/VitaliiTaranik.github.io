@@ -595,8 +595,8 @@ ul li:nth-child(5) a span::after{
 .about-me-photo{
 	width: 40%;
 	background: url(../img/developer_photo-2.png) no-repeat left top;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	-webkit-background-size: 75%;
+	background-size: 75%;
 }
 
 .about-me-story{
@@ -616,7 +616,7 @@ ul li:nth-child(5) a span::after{
 }
 
 .about-me__text{
-	font-size: 12px;
+	font-size: 20px;
 	color: 717072px;
 	line-height: 24px;
 }

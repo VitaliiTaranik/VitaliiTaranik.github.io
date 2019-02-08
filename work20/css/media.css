@@ -11,12 +11,35 @@
 
 /* 961 - 1368 */
 @media screen and (max-width:1368px){
+	.photos{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.photos img{
+		width: 50%;
+   	margin: 25px auto;
+	}	
+
+	.title-gallery,.scils-title{
+		text-align: center;
+	}
 	
 }
 
 /* 769 - 960 */
 @media screen and (max-width:960px){
-	
+	.merits{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.unit{
+		margin-bottom: 25px;
+	}
 }
 
 /* 481 - 768 */
@@ -26,7 +49,9 @@
 
 /* 320 - 480 */
 @media screen and (max-width:480px){
-	
+	.photos img{
+		width: 90%;
+	}
 }
 
 /*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
