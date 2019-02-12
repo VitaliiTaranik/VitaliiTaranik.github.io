@@ -1,0 +1,363 @@
+@import"normalize.css";
+
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body{background: #262626;font-family: 'Montserrat', sans-serif;margin: 0;padding: 0;color:#fff;}
+ul, li{display: block;margin: 0;padding: 0;list-style-type:none;transition: all 0.5s ease;}
+a{ text-decoration: none;transition: all 0.5s ease;}
+h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+.d-f{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;}
+.j-c-c{justify-content: center;}
+.left{text-align: left;}
+.right{text-align: right;}
+.clearfix:after{content:'';display: block;clear: both;}
+	
+/********* FONTS ( ШРИФТЫ )***************/
+/********* FONTS END ***********/
+
+/********* SPECIALIZATION ( СПЕЦИФИКАЦИЯ )***********/
+
+.container{
+	width: 90%;
+	height: 100%;
+	max-width: 1920px;
+	position: relative;
+	margin: 0 auto;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.offer,.slider{
+	width: 50%;
+	position: relative;
+}
+
+.offer{
+	height: 100%;
+	background: #111;
+}
+
+.btn{
+	display: inline-block;
+	padding: 22px 45px;
+	font-size: 12px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 100px;
+	background: #e930a1;
+}
+
+.btn:hover{
+	background: #ff009c;
+	-webkit-box-shadow: 0 10px 30px rgba(233,48,161,.4);
+	box-shadow: 0 10px 30px rgba(233,48,161,.4);
+}
+
+.btn-round{
+	padding: 5px 16px;
+	font-size: 9px;
+	color: #30e9a1;
+	text-transform: uppercase;
+	border: 1px solid #30e9a1;
+	border-radius: 100px;
+}
+
+.btn-round:hover{
+	color: #fff;
+	background: #30e9a1;
+	border: 1px solid #30e9a1;
+}
+
+/********* SPECIALIZATION END ***********/
+
+/********** VARIABLE ( ПЕРЕМЕННЫЕ )*********/
+/********** VARIABLE END*********/
+
+
+/*-moz-transform:  Для Firefox */
+/*-ms-transform:  Для IE */
+/*-webkit-transform:  Для Safari, Chrome, iOS */
+/*-o-transform:  Для Opera */
+
+
+/* ========= header ============= */
+
+.header{
+	position: relative;
+	z-index: 2;
+}
+
+.first{
+	height: 15vh;
+}
+
+.menu{
+	margin-left: 235px;
+}
+
+.menu-item{
+	margin-right: 47px;
+}
+
+.menu-item__link{
+	font-size: 12px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu-item__link:hover{
+	color: #22dae5;
+}
+
+.auth{
+	margin-left: auto;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.auth-img{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 57px;
+	height: 57px;
+	border: 1px solid #404040;
+	border-radius: 50%;
+}
+
+.auth-info{
+	margin-left: 13px;
+	text-transform: uppercase;
+}
+
+.auth-info__profile{
+	margin-bottom: 5px;
+	font-size: 8px;
+	color: #afafaf;
+}
+
+.auth-info__name{
+	font-size: 10px;
+	color: #fff;
+}
+
+.auth-play{
+	width: 28px;
+	height: 28px;
+	margin-left: 22px;
+	line-height: 27px;
+	text-align: center;
+	background: #3d3939;
+	border-radius: 50%;
+}
+
+.fa-music{
+	font-size: 12px;
+	color: #fff;
+	margin-right: 2px;
+}
+
+.auth-more{
+	display: block;
+	margin-left: 10px;
+	color: #fff;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+/* ========= header end ========= */
+
+/* ========= main =============== */
+
+.content{
+	height: 80vh;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.content::before{
+	content: '';
+	width: 1009px;
+	height: 979px;
+	display: block;
+	position: absolute;
+	right: 0;
+	background: url(../img/light1.png);
+	z-index: 0;
+}
+
+.content::after{
+	content: '';
+	width: 1190px;
+	height: 1180px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -12vh;
+	background: url(../img/light2.png);
+	z-index: -1;
+}
+
+.offer{
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.offer-body{
+	width: 610px;
+}
+
+.offer-body__tittle{
+	font-size: 58px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.offer-body__word{
+	display: block;
+	position: relative;
+	font-size: 81px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.offer-body__word::before{
+	content: "anywhere";
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: -4px;
+	font-size: 81px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #8d1312;
+	z-index: 1;	
+}
+
+.offer-body__word::after{
+	content: "anywhere";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	font-size: 81px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #37a9a8;
+	z-index: 1;	
+}
+
+.offer-body__word span{
+	position: relative;
+	z-index: 2;
+}
+
+.offer-btn{
+	margin-top: 4vh;
+}
+
+.offer-btn__link{
+	margin-right: 23px;
+}
+
+.offer-learn{
+	margin-top: 5vh;
+}
+
+.slider{
+	height: 100%;
+	background: rgba(0,0,0,0.07);
+}
+
+.ellips{
+	width: 85%;
+	height: 85%;
+	/*max-width: 782px;
+	max-height: 779px;*/
+	position: absolute;
+	bottom: -8%;
+	right: 5%;
+	background: url(../img/ellips.png) no-repeat center center / contain;
+}
+
+.lines-dot{
+	width: 22%;
+	height: 22%;
+	max-width: 168px;
+	max-height: 163px;
+	position: absolute;
+	bottom: 6%;
+	left: -5%;
+	background: url(../img/lines-dot.png) no-repeat center / contain;
+}
+
+.plus-yellow{
+	width: 8%;
+	height: 8%;
+	max-width: 67px;
+	max-height: 67px;
+	position: absolute;
+	top: 44%;
+	left: 24%;
+	background: url(../img/plus-yellow.png) no-repeat center / contain;
+}
+
+.rnb-man{
+	width: 77%;
+	height: 77%;
+	max-width: 703px;
+	max-height: 702px;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	background: url(../img/rnb-man.png) no-repeat bottom / contain;
+}
+
+.plus-dots{
+	width: 30%;
+	height: 30%;
+	max-width: 290px;
+	max-height: 290px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: url(../img/plus-dots.png) no-repeat bottom right / contain;
+}
+
+.triangles{
+	width: 30%;
+	height: 30%;
+	max-width: 161px;
+	max-height: 166px;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	background: url(../img/triangles.png) no-repeat center / contain;	
+}
+
+.line-wave{
+	width: 30%;
+	height: 30%;
+	max-width: 260px;
+	max-height: 233px;
+	position: absolute;
+	top: 31%;
+	left: -10%;
+	background: url(../img/line-wave.png) no-repeat center / contain;
+}
+
+
+/* ========= main end =========== */
+
+/* ========= footer ============= */
+/* ========= footer end ========= */
