@@ -60,6 +60,15 @@
 		flex-direction: column;
 		margin: 115px 0px 0px -130px;
 	}
+
+	.offer{
+		margin-top: 15%;
+		background: none;
+	}
+
+	.slider{
+		background: none;
+	}
 }
 
 /* 320 - 480 */
@@ -95,10 +104,6 @@
 		margin-top: 3vh;
 	}
 
-	.offer {
-		height: 60%;
-	}
-
 	.triangles {
 		top: 10%;
 	}
@@ -111,6 +116,15 @@
 		bottom: 0%;
 		top: 5%;
 		left: 25%;
+	}
+
+	.content::before{
+		right: -50vh;
+   	bottom: -65vh;
+	}
+
+	.content::after{
+		right: -30vh;
 	}
 }
 
