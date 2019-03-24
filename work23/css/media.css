@@ -1,0 +1,88 @@
+
+/* 1951 - 1920 */
+@media (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media (max-width:1600px){	
+	header,main,footer{
+		margin: 0 10px;
+	}
+}
+
+/* 961 - 1368 */
+@media (max-width:1368px){
+	
+}
+
+/* 780 - 960 */
+@media (max-width:960px){
+	
+}
+
+/* 520 - 780 */
+@media (max-width:780px){
+	.menu{
+		margin-left: 20px;
+	}
+
+	.offer{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.offer-graphics{
+		margin: 50px auto 0 auto;
+	}
+
+	.phone{
+		display: none;
+	}
+}
+
+/* 320 - 520 */
+@media (max-width:520px){
+	.nav{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.nav ul{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.nav ul li{
+		margin-top: 15px;
+	}
+
+	.offer h1{
+		font-size: 24px;
+}
+
+	.offer h1 span{
+		font-size: 40px;
+}
+
+	.offer-graphics {
+		width: 250px;
+		-webkit-background-size: 95%;
+		background-size: 95%;
+		background-position: center;
+	}
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/

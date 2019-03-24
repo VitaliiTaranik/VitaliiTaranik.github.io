@@ -540,6 +540,11 @@ ul li:nth-child(5) a span::after{
 	-webkit-background-size: 105%;
 	background-size: 105%;
 }
+.work-23{
+	background: url(../img/works/work23.jpg) no-repeat top/cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
 
 .project-category{
 	display: block;
