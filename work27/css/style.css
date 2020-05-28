@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/*обнуление*/
+@import "../../css/fonts.css";
+* {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: PT Sans Narrow, arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  background: #353535;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+nav,
+header,
+aside,
+footer {
+  display: block;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+label,
+textarea {
+  font-size: inherit;
+}
+
+button,
+label,
+input,
+textarea {
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.df {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.df-c {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.df-c-aic {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+body {
+  background: #353535;
+  color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 720px;
+  background: url(../img/header_background/header_background.jpg) no-repeat center;
+  background-size: cover;
+}
+.header__nav {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.header__nav_list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.header__nav_list .header__nav_item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav_list .header__nav_item:last-child {
+  margin-left: 80px;
+}
+.header__nav_list .header__nav_item:hover {
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.header__nav_list .header__nav_item:hover .header__nav_link {
+  color: #000;
+}
+.header__nav_list .header__nav_item:hover .nav__link-user::before {
+  color: #000;
+}
+.header__nav_list .header__nav_item:active .nav__link-user::before {
+  color: #fff;
+}
+.header__nav_list .header__nav_item .nav__link-user::before {
+  content: "\ea14";
+  position: relative;
+  top: 2px;
+  padding-right: 10px;
+  font-size: 17px;
+  font-family: "icomoon" !important;
+  color: #4d4d4d;
+  transition: all 0.3s ease-in-out;
+}
+.header__nav_list .header__nav_item .header__nav_link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header__nav_list .header__nav_item .header__nav_link:active {
+  background: #000;
+  color: #fff;
+  border-bottom: 2px solid #826550;
+  transition: none;
+}
+.header .header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 57px;
+}
+.header .header__logo .logo__img {
+  max-width: 100%;
+}
+.header .header__form {
+  display: none;
+  width: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 50px;
+  text-align: center;
+  color: #000;
+  background: #f8f5f2;
+  box-shadow: 0px 10px 45px 10px black;
+}
+.header .header__form_title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.header .header__form_text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.header .header__form form .header__form_user input[type=text],
+.header .header__form form .header__form_user input[type=password] {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 5px;
+  padding: 20px 40px 20px 20px;
+  font-size: 24px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #e5ddd5;
+}
+.header .header__form form .header__form_user .user_submit {
+  width: 100%;
+  padding: 10px 60px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #826550;
+  transition: all 0.3s ease-in-out;
+}
+.header .header__form form .header__form_user .user_submit[type=submit]:hover {
+  background: #6a4d38;
+  cursor: pointer;
+}
+.header .header__form form .header__form_user .form_user-icon {
+  width: 100%;
+  position: relative;
+}
+.header .header__form form .header__form_user .form_user-icon::before {
+  content: "\ea14";
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  font-size: 20px;
+  font-family: "icomoon" !important;
+  color: #4d4d4d;
+  transition: all 0.3s ease-in-out;
+}
+.header .header__form form .header__form_user .form_user-memory {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.header .header__form form .header__form_user .form_user-memory a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+}
