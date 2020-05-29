@@ -34,6 +34,10 @@
 	 .hero-btn__o{
 	 	margin-top: 20px;
 	 }
+
+	 .bg__ios{
+		display: none;
+	}
 }
 
 /* 481 - 768 */
@@ -101,8 +105,9 @@
 		padding: 0 5px 30px;
 		text-align: center;
 	}
-	.video{
-		display: none;
+	
+	.bg__ios{
+		display: block;
 	}
 	
 }
