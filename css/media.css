@@ -1,7 +1,10 @@
 
 /* 1601 - 1920 */
-@media screen and (max-width:1920px){	
-.bg__ios{
+@media screen and (max-width:2560px){	
+	.video[src="img/video/Hello-World.mp4"]{
+		display: block;
+	}
+	.bg__ios{
 		display: none;
 	}
 }
@@ -41,6 +44,12 @@
 
 /* 481 - 768 */
 @media screen and (max-width:768px){
+	.video[src="img/video/Hello-World.mp4"]{
+		display: none;
+	}
+	.bg__ios{
+		display: block;
+	}
 	.name{
 		font-size: 10px;
 	}
@@ -104,11 +113,6 @@
 		padding: 0 5px 30px;
 		text-align: center;
 	}
-	
-	.bg__ios{
-		display: block;
-	}
-	
 }
 
 /* 320 - 480 */
