@@ -101,7 +101,9 @@
 		padding: 0 5px 30px;
 		text-align: center;
 	}
-
+	.video{
+		display: none;
+	}
 	
 }
 
