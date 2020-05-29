@@ -1,7 +1,9 @@
 
 /* 1601 - 1920 */
 @media screen and (max-width:1920px){	
-
+.bg__ios{
+		display: none;
+	}
 }
 
 /* 1369 - 1600 */
@@ -34,10 +36,7 @@
 	 .hero-btn__o{
 	 	margin-top: 20px;
 	 }
-
-	 .bg__ios{
-		display: none;
-	}
+	 
 }
 
 /* 481 - 768 */
