@@ -6,6 +6,9 @@
 $('.nav__link-user , .nav__burger-user').click(function(){
     $('.header__form').slideToggle();
 });
+$('.header__close_btn').click(function(){
+    $('.header__form').slideToggle();
+});
 
 // $('.header__burger__btn').click(function(){
 //     $('.header__burger_menu').slideToggle();
