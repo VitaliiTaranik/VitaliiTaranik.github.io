@@ -240,6 +240,35 @@ body {
   box-shadow: 0px 10px 45px 10px black;
   z-index: 1;
 }
+.header__form .header__close_btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  background: #826550;
+  transition: all 0.3s ease-in-out;
+}
+.header__form .header__close_btn:hover {
+  cursor: pointer;
+  border-radius: 0px 0px 25px 0px;
+  background: #6a4d38;
+}
+.header__form .header__close_btn::before {
+  content: "✖";
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.header__form .header__close_btn:hover::before {
+  transform: rotate(180deg) scale(1.8);
+}
 .header__form_title {
   margin-bottom: 20px;
   font-weight: 700;
