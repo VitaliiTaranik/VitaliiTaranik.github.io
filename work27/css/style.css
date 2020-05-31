@@ -152,6 +152,7 @@ body {
 .header {
   width: 100%;
   height: 720px;
+  position: relative;
   background: url(../img/header_background/header_background.jpg) no-repeat center;
   background-size: cover;
 }
@@ -238,7 +239,7 @@ body {
   color: #000;
   background: #f8f5f2;
   box-shadow: 0px 10px 45px 10px black;
-  z-index: 1;
+  z-index: 2;
 }
 .header__form .header__close_btn {
   width: 40px;
@@ -430,8 +431,10 @@ body {
 }
 .header__mobile_menu .header__burger_menu {
   display: none;
+  position: relative;
   text-align: center;
   background: #826550;
+  z-index: 1;
 }
 .header__mobile_menu .header__burger_menu .header__burger_nav {
   box-shadow: inset 4px 0px 8px 0px rgba(0, 0, 0, 0.5);
@@ -461,4 +464,154 @@ body {
   font-family: "icomoon" !important;
   color: #fff;
   transition: all 0.3s ease-in-out;
+}
+
+.main .statistics {
+  width: 960px;
+  min-height: 320px;
+  display: flex;
+  position: relative;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  color: #000;
+  background: #fff;
+  box-shadow: 0px 10px 45px 0px #000;
+}
+.main .statistics__description {
+  width: 320px;
+  height: 100%;
+  padding: 40px;
+}
+.main .statistics__description::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: -39px;
+  width: 0px;
+  height: 0px;
+  margin: 10px;
+  border-top: 0px solid transparent;
+  border-right: 30px solid #fff;
+  border-bottom: 30px solid transparent;
+}
+.main .statistics__description_title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+.main .statistics__description_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.main .statistics .statistics__price {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  background: #353535;
+}
+.main .statistics .statistics__price_item {
+  width: 320px;
+  padding: 30px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.main .statistics .statistics__price .price-bg-1 {
+  animation: price-bg-1 2s linear infinite alternate;
+}
+@keyframes price-bg-1 {
+  0% {
+    background: #353535;
+  }
+  100% {
+    background: #464646;
+    box-shadow: inset 0px 0px 5px 2px #000;
+  }
+}
+.main .statistics .statistics__price .price-bg-2 {
+  animation: price-bg-2 2.5s linear infinite alternate;
+}
+@keyframes price-bg-2 {
+  0% {
+    background: #353535;
+  }
+  100% {
+    background: #666666;
+    box-shadow: inset 0px 0px 5px 2px #000;
+  }
+}
+.main .statistics .statistics__price .price-bg-3 {
+  animation: price-bg-3 3s linear infinite alternate;
+}
+@keyframes price-bg-3 {
+  0% {
+    background: #353535;
+  }
+  100% {
+    background: #666666;
+    box-shadow: inset 0px 0px 5px 2px #000;
+  }
+}
+.main .statistics .statistics__price .price-bg-4 {
+  animation: price-bg-4 3.5s linear infinite alternate;
+}
+@keyframes price-bg-4 {
+  0% {
+    background: #353535;
+  }
+  100% {
+    background: #666666;
+    box-shadow: inset 0px 0px 5px 2px #000;
+  }
+}
+.main .statistics .statistics__price_title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+.main .statistics .statistics__price_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #c3c0bd;
+}
+.main .advantage {
+  max-width: 960px;
+  margin: -100px auto 0px;
+}
+.main .advantage__items {
+  display: flex;
+  justify-content: space-around;
+}
+.main .advantage__item {
+  width: 240px;
+  text-align: center;
+}
+.main .advantage__img {
+  margin-bottom: 30px;
+}
+.main .advantage__img img {
+  animation: adw-img 10s linear infinite alternate;
+}
+@keyframes adw-img {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.main .advantage__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.main .advantage__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
 }

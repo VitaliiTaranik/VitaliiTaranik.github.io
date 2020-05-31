@@ -1,7 +1,58 @@
 /* 1601 - 1920 */
 /* 1369 - 1600 */
 /* 961 - 1368 */
-/* 769 - 960 */
+@media (max-width: 1050px) {
+  .main .statistics {
+    width: 768px;
+    min-height: 240px;
+    flex-direction: column;
+    transform: translateY(-38%);
+  }
+  .main .statistics .statistics__description {
+    width: 100%;
+  }
+  .main .statistics .statistics__price {
+    width: 768px;
+  }
+  .main .statistics .statistics__price .statistics__price_item {
+    width: 50%;
+  }
+}
+@media (max-width: 960px) {
+  .main .advantage__items {
+    flex-direction: column;
+  }
+  .main .advantage__items .advantage__item {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: start;
+    border-bottom: 1px solid #4a4a4a;
+  }
+  .main .advantage__items .advantage__item .advantage__img {
+    margin: 0;
+  }
+  .main .advantage__items .advantage__item .advantage__info {
+    padding: 0 20px 0 30px;
+  }
+}
+@media (max-width: 860px) {
+  .main .statistics {
+    width: 100%;
+    margin: 0;
+    transform: translateY(-25%);
+  }
+  .main .statistics .statistics__description {
+    text-align: center;
+  }
+  .main .statistics .statistics__description::after {
+    display: none;
+  }
+  .main .statistics .statistics__price {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .header .header__nav .header__nav_list .header__nav_item:hover .nav__link-user::before {
     color: #826550;
@@ -17,6 +68,32 @@
     border-bottom: 2px solid #826550;
     transition: none;
     color: #fff;
+  }
+}
+@media (max-width: 640px) {
+  .header__nav {
+    display: none;
+  }
+  .header__logo {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .header__mobile_menu {
+    display: block;
+  }
+
+  .main .statistics .statistics__price {
+    flex-direction: column;
+  }
+  .main .statistics .statistics__price .statistics__price_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .statistics .statistics__price .statistics__price_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 520px) {
@@ -43,17 +120,22 @@
     padding: 10px;
     font-size: 14px;
   }
-}
-@media (max-width: 640px) {
-  .header__nav {
-    display: none;
+
+  .main .statistics .statistics__description {
+    padding: 20px;
   }
-  .header__logo {
-    margin-top: 0px;
-    padding-top: 30px;
+  .main .statistics .statistics__price .statistics__price_item {
+    padding: 14px;
   }
-  .header__mobile_menu {
-    display: block;
+  .main .statistics .statistics__price .statistics__price_item .statistics__price_title {
+    font-size: 40px;
+  }
+  .main .statistics .statistics__price .statistics__price_item .statistics__price_text {
+    font-size: 14px;
+  }
+
+  .advantage .advantage__items .advantage__item {
+    width: 90%;
   }
 }
 /*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
