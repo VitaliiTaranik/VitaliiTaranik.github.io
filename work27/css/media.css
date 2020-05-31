@@ -1,32 +1,59 @@
-
 /* 1601 - 1920 */
-@media (max-width:1920px){	
-
-}
-
 /* 1369 - 1600 */
-@media (max-width:1600px){	
-
-}
-
 /* 961 - 1368 */
-@media (max-width:1368px){
-	
-}
-
 /* 769 - 960 */
-@media (max-width:960px){
-	
+@media (max-width: 768px) {
+  .header .header__nav .header__nav_list .header__nav_item:hover .nav__link-user::before {
+    color: #826550;
+  }
+  .header .header__nav .header__nav_list .header__nav_item:hover {
+    background: #000;
+  }
+  .header .header__nav .header__nav_list .header__nav_item a:hover {
+    color: #826550;
+  }
+  .header .header__nav .header__nav_list .header__nav_item a:active {
+    color: #fff;
+    border-bottom: 2px solid #826550;
+    transition: none;
+    color: #fff;
+  }
 }
-
-/* 481 - 768 */
-@media (max-width:768px){
-	
+@media (max-width: 520px) {
+  .header__form {
+    width: 95%;
+  }
+  .header__form .header__form_title {
+    padding-bottom: 0;
+    font-size: 24px;
+  }
+  .header__form .header__form_text {
+    font-size: 14px;
+  }
+  .header__form form .header__form_user .form_user-memory {
+    margin: 15px 0;
+  }
+  .header__form form .header__form_user .form_user-memory label {
+    font-size: 12px;
+  }
+  .header__form form .header__form_user .form_user-memory a {
+    font-size: 12px;
+  }
+  .header__form form .header__form_user .user_submit {
+    padding: 10px;
+    font-size: 14px;
+  }
 }
-
-/* 320 - 480 */
-@media (max-width:480px){
-	
+@media (max-width: 640px) {
+  .header__nav {
+    display: none;
+  }
+  .header__logo {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .header__mobile_menu {
+    display: block;
+  }
 }
-
 /*@media screen and (min-width: 320px) and (max-width: 479px) {}*/

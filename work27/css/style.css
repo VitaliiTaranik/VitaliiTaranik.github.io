@@ -192,7 +192,7 @@ body {
   color: #fff;
 }
 .header__nav_list .header__nav_item .nav__link-user::before {
-  content: "\ea14";
+  content: "";
   position: relative;
   top: 2px;
   padding-right: 10px;
@@ -217,16 +217,16 @@ body {
   border-bottom: 2px solid #826550;
   transition: none;
 }
-.header .header__logo {
+.header__logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 57px;
 }
-.header .header__logo .logo__img {
+.header__logo .logo__img {
   max-width: 100%;
 }
-.header .header__form {
+.header__form {
   display: none;
   width: 460px;
   position: absolute;
@@ -238,22 +238,23 @@ body {
   color: #000;
   background: #f8f5f2;
   box-shadow: 0px 10px 45px 10px black;
+  z-index: 1;
 }
-.header .header__form_title {
+.header__form_title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 40px;
   line-height: 30px;
   text-transform: uppercase;
 }
-.header .header__form_text {
+.header__form_text {
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
 }
-.header .header__form form .header__form_user input[type=text],
-.header .header__form form .header__form_user input[type=password] {
+.header__form form .header__form_user input[type=text],
+.header__form form .header__form_user input[type=password] {
   width: 100%;
   height: 70px;
   margin-bottom: 5px;
@@ -263,7 +264,7 @@ body {
   background: #fff;
   border: 1px solid #e5ddd5;
 }
-.header .header__form form .header__form_user .user_submit {
+.header__form form .header__form_user .user_submit {
   width: 100%;
   padding: 10px 60px;
   font-weight: 700;
@@ -273,16 +274,16 @@ body {
   background: #826550;
   transition: all 0.3s ease-in-out;
 }
-.header .header__form form .header__form_user .user_submit[type=submit]:hover {
+.header__form form .header__form_user .user_submit[type=submit]:hover {
   background: #6a4d38;
   cursor: pointer;
 }
-.header .header__form form .header__form_user .form_user-icon {
+.header__form form .header__form_user .form_user-icon {
   width: 100%;
   position: relative;
 }
-.header .header__form form .header__form_user .form_user-icon::before {
-  content: "\ea14";
+.header__form form .header__form_user .form_user-icon::before {
+  content: "";
   position: absolute;
   top: 25px;
   right: 10px;
@@ -291,14 +292,144 @@ body {
   color: #4d4d4d;
   transition: all 0.3s ease-in-out;
 }
-.header .header__form form .header__form_user .form_user-memory {
+.header__form form .header__form_user .form_user-memory {
   display: flex;
   justify-content: space-between;
   margin: 25px 0;
 }
-.header .header__form form .header__form_user .form_user-memory a {
+.header__form form .header__form_user .form_user-memory .checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.header__form form .header__form_user .form_user-memory .checkbox:checked + label:before {
+  background: #fff;
+}
+.header__form form .header__form_user .form_user-memory .checkbox:checked + label:after {
+  display: none;
+}
+.header__form form .header__form_user .form_user-memory .checkbox + label {
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.header__form form .header__form_user .form_user-memory .checkbox + label::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #e5ddd5;
+}
+.header__form form .header__form_user .form_user-memory .checkbox + label::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  width: 30px;
+  height: 15px;
+  border-left: 4px solid #000;
+  border-bottom: 4px solid #000;
+  transform: rotate(-56deg);
+}
+.header__form form .header__form_user .form_user-memory a {
   font-weight: 400;
   font-size: 18px;
   color: #000;
   text-decoration: underline;
+}
+.header__mobile_menu {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+  background: #826550;
+}
+.header__mobile_menu .header__mobile_title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.header__mobile_menu .header__burger__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  background: #6a4d38;
+}
+.header__mobile_menu .header__burger__btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  box-shadow: 0px 12px 0px 0px #fff, 0px -12px 0px 0px #fff;
+  transition: all 0.3s ease-in-out;
+}
+.header__mobile_menu .header__burger__btn:hover {
+  cursor: pointer;
+}
+.header__mobile_menu .header__burger__btn.active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  box-shadow: 0px 12px 0px 0px #fff, 0px -12px 0px 0px #fff;
+  transform: rotate(90deg);
+  filter: blur(2px);
+}
+.header__mobile_menu .header__burger_menu {
+  display: none;
+  text-align: center;
+  background: #826550;
+}
+.header__mobile_menu .header__burger_menu .header__burger_nav {
+  box-shadow: inset 4px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+.header__mobile_menu .header__burger_menu .header__burger_nav .header__burger_list .header__burger_item {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.header__mobile_menu .header__burger_menu .header__burger_nav .header__burger_list .header__burger_item .header__burger_link {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header__mobile_menu .header__burger_menu .header__burger_nav .header__burger_list .header__burger_item .header__burger_link:hover {
+  background: #6a4d38;
+}
+.header__mobile_menu .header__burger_menu .header__burger_nav .header__burger_list .header__burger_item .nav__burger-user::before {
+  content: "";
+  position: relative;
+  top: 2px;
+  padding-right: 10px;
+  font-size: 17px;
+  font-family: "icomoon" !important;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
