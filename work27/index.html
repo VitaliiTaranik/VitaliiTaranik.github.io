@@ -16,9 +16,9 @@
 		<!-- Подключение шрифта PT Sans Narrow -->
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 		<!-- Подключение iconmoon -->
-		<link type="text/css" rel="stylesheet" href="css/fonts.css">
+		<link type="text/css" rel="stylesheet" href="../css/fonts.css">
 		<!-- Подключение favicon -->
-		<link type="text/css" rel="shortcut icon" href="img/favicon/favicon_borodinski.ico" type="image/x-icon">
+		<link type="text/css" rel="shortcut icon" href="../img/favicon/favicon_borodinski.ico" type="image/x-icon">
 		<!-- Подключение normalize css -->
 		<link type="text/css" rel="stylesheet" href="css/normalize.css">
 		<!-- Подключение css -->
@@ -38,10 +38,13 @@
 					<a href="#" class="header__nav_link nav__link-active">Главная</a>
 				</li>
 				<li class="header__nav_item">
-					<a href="#" class="header__nav_link">Наши работы</a>
+					<a href="#" class="header__nav_link">Информация</a>
 				</li>
 				<li class="header__nav_item">
-					<a href="#" class="header__nav_link">Записаться</a>
+					<a href="#" class="header__nav_link">Новости</a>
+				</li>
+				<li class="header__nav_item">
+					<a href="#" class="header__nav_link">Прайс лист</a>
 				</li>
 				<li class="header__nav_item">
 					<a href="#" class="header__nav_link">Контакты</a>
@@ -55,20 +58,17 @@
 		<div class="header__form">
 			<div class="header__form_title">Личный кабинет</div>
 			<div class="header__form_text">Введите свой логин и пароль, чтобы войти</div>
-
-			<form action="">
+			<form action="#">
 				<div class="header__form_user">
 					<div class="form_user-icon">
-						<input type="text" name="username" class="user_name" placeholder="Логин">
+						<input type="text" name="username" class="user_name" placeholder="Логин" required>
 					</div>
 					<div class="form_user-icon">
-						<input type="password" name="password" class="user_password" placeholder="Пароль">
+						<input type="password" name="password" class="user_password" placeholder="Пароль" required>
 					</div>
 					<div class="form_user-memory">
-						<label>
-							<input type="checkbox" checked>
-							Запомните меня
-						</label>
+						<input type="checkbox" class="checkbox" id="checkbox" checked>
+						<label for="checkbox" checked>Запомните меня</label>
 						<a href="#">Я забыл пароль</a>
 					</div>
 					<div>
@@ -78,26 +78,47 @@
 			</form>
 		</div>
 
-		<!-- <div class="header__actions window__user">
-			<div class="actions__title">Личный кабинет</div>
-			<div class="actions__text">Введите свой логин и пароль, чтобы войти</div>
-			<form class="actions__form" action="#" method="get" enctype="multipart/form-data">
-				<input class="actions__name" type="text" name="username" placeholder="Логин" required>
-				<input class="actions__pasword" type="password" name="userpass" placeholder="Пароль" required>
-				<label>
-					<span class="check"></span>
-					<input type="checkbox" name="memory" checked value="запомните меня">запомните меня</input>
-				</label>
-				<a href="#">Я забыл пароль!</a>
-				<input class="actions__send" type="submit" value="Войти в личный кабинет"></input>
-				Войти в личный кабинет
-			</form>
-		</div> -->
-
 		<div class="header__logo">
 			<figure class="logo">
-				<img class="logo__img" src="img/logo/Borodinski-logo-v3.png" alt="logo-Borodinski">
+				<picture>
+					<source class="logo__img" media="(min-width: 960px)" srcset="../img/logo/Borodinski-logo-v3.png">
+					<source class="logo__img" media="(min-width: 460px)" srcset="../img/logo/Borodinski-logo-v2.png">
+					<source class="logo__img" media="(min-width: 320px)" srcset="../img/logo/Borodinky-logo-v1.png">
+					<img class="logo__img" src="../img/logo/Borodinski-logo-v3.png" alt="logo-Borodinski">
+				</picture>
     		</figure>
+		</div>
+
+		<div class="header__mobile_menu">
+			<div class="header__mobile_title">Главная</div>
+			<div class="header__burger__btn">
+				
+			</div>
+			<div class="header__burger_menu">
+				<nav class="header__burger_nav">
+					<ul class="header__burger_list">
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link">Главная</a>
+						</li>
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link">Информация</a>
+						</li>
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link">Новости</a>
+						</li>
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link">Прайс лист</a>
+						</li>
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link">Контакты</a>
+						</li>
+						<li class="header__burger_item">
+							<a href="#" class="header__burger_link nav__burger-user">Вход</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
 		</div>
 
 	</div>
