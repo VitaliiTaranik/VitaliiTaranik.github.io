@@ -16,9 +16,9 @@
 		<!-- Подключение шрифта PT Sans Narrow -->
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 		<!-- Подключение iconmoon -->
-		<link type="text/css" rel="stylesheet" href="css/fonts.css">
+		<link type="text/css" rel="stylesheet" href="../css/fonts.css">
 		<!-- Подключение favicon -->
-		<link type="text/css" rel="shortcut icon" href="img/favicon/favicon_borodinski.ico" type="image/x-icon">
+		<link type="text/css" rel="shortcut icon" href="../img/favicon/favicon_borodinski.ico" type="image/x-icon">
 		<!-- Подключение normalize css -->
 		<link type="text/css" rel="stylesheet" href="css/normalize.css">
 		<!-- Подключение css -->
@@ -82,10 +82,10 @@
 		<div class="header__logo">
 			<figure class="logo">
 				<picture>
-					<source class="logo__img" media="(min-width: 960px)" srcset="img/logo/Borodinski-logo-v3.png">
-					<source class="logo__img" media="(min-width: 460px)" srcset="img/logo/Borodinski-logo-v2.png">
-					<source class="logo__img" media="(min-width: 320px)" srcset="img/logo/Borodinky-logo-v1.png">
-					<img class="logo__img" src="img/logo/Borodinski-logo-v3.png" alt="logo-Borodinski">
+					<source class="logo__img" media="(min-width: 960px)" srcset="../img/logo/Borodinski-logo-v3.png">
+					<source class="logo__img" media="(min-width: 460px)" srcset="../img/logo/Borodinski-logo-v2.png">
+					<source class="logo__img" media="(min-width: 320px)" srcset="../img/logo/Borodinky-logo-v1.png">
+					<img class="logo__img" src="../img/logo/Borodinski-logo-v3.png" alt="logo-Borodinski">
 				</picture>
     		</figure>
 		</div>
@@ -129,8 +129,8 @@
 <!-- ========= main =============== -->
 <main class="main" id="#">
 	<div class="container">
+		
 		<section class="statistics">
-
 			<div class="statistics__description">
 				<div class="statistics__description_title">Стрижка у нас это выгодно!</div>
 				<div class="statistics__description_text">Мужская стрижка требует точного подхода. Обратимся к статистике:</div>
@@ -154,15 +154,13 @@
 					<div class="statistics__price_text">лайков и комплиментов</div>
 				</div>
 			</div> 
-
 		</section>
 
 		<section class="advantage">
-
 			<div class="advantage__items">
 				<div class="advantage__item">
 					<div class="advantage__img">
-						<img src="img/advantage__img/advantage-1-illustration.png" alt="">
+						<img src="../img/advantage__img/advantage-1-illustration.png" alt="">
 					</div>
 					<div class="advantage__info">
 						<div class="advantage__title">
@@ -175,7 +173,7 @@
 				</div>
 				<div class="advantage__item">
 					<div class="advantage__img">
-						<img src="img/advantage__img/advantage-2-illustration.png" alt="">
+						<img src="../img/advantage__img/advantage-2-illustration.png" alt="">
 					</div>
 					<div class="advantage__info">
 						<div class="advantage__title">
@@ -188,7 +186,7 @@
 				</div>
 				<div class="advantage__item">
 					<div class="advantage__img">
-						<img src="img/advantage__img/advantage-3-illustration.png" alt="">
+						<img src="../img/advantage__img/advantage-3-illustration.png" alt="">
 					</div>
 					<div class="advantage__info">
 						<div class="advantage__title">
@@ -200,10 +198,221 @@
 					</div>						
 				</div>
 			</div>
-
 		</section>
 
+		<section class="advantage__slider_mobile">
+			<div class="slider">
+				<div class="advantage__item">
+					<div class="advantage__img">
+						<img src="../img/advantage__img/advantage-1-illustration.png" alt="">
+					</div>
+					<div class="advantage__info">
+						<div class="advantage__title">
+							БЫСТРО
+						</div>
+						<div class="advantage__text">
+							<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки</p>
+						</div>
+					</div>				
+				</div>
+				<div class="advantage__item">
+					<div class="advantage__img">
+						<img src="../img/advantage__img/advantage-2-illustration.png" alt="">
+					</div>
+					<div class="advantage__info">
+						<div class="advantage__title">
+							КРУТО
+						</div>
+						<div class="advantage__text">
+							<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино.Во всяком случае внешне.</p>
+							<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино.Во всяком случае внешне.</p>
+							<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино.Во всяком случае внешне.</p>
+						</div>
+					</div>
+				</div>
+				<div class="advantage__item">
+					<div class="advantage__img">
+						<img src="../img/advantage__img/advantage-3-illustration.png" alt="">
+					</div>
+					<div class="advantage__info">
+						<div class="advantage__title">
+							ДОРОГО
+						</div>
+						<div class="advantage__text">
+							<p>Наши мастера — профессионалы своего делаи не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+						</div>
+					</div>						
+				</div>
+			</div>
+		</section>
 	</div>
+
+		<section class="news">
+			<div class="container">
+
+				<div class="news__items_header">
+					<h2 class="news__title section__title">Новости и акции</h2>
+					<span class="news__btn section_btn" href="#">Показать всё</span>
+				</div>
+
+				<div class="news__items_main">
+					<div class="news__item">
+						<div class="news__item_time">
+							<span class="number">29</span>
+							<span class="month ">сент</span>
+						</div>
+						<div class="news__item_text">
+							Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__item_time">
+							<span class="number">19</span>
+							<span class="month ">сент</span>
+						</div>
+						<div class="news__item_text">
+							В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды. Спешите записаться!
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__item_time">
+							<span class="number">9</span>
+							<span class="month ">сент</span>
+						</div>
+						<div class="news__item_text">
+							Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+						</div>
+					</div>
+				</div>
+
+				<div class="news__items_main-duble">
+					<div class="news__doble-wrapper">
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">19</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды. Спешите записаться!
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">29</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">9</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="news__items_main-duble">
+					<div class="news__doble-wrapper">
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">29</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">9</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__item_time">
+								<span class="number">19</span>
+								<span class="month ">сент</span>
+							</div>
+							<div class="news__item_text">
+								В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды. Спешите записаться!
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+		<section class="feedback">
+			<div class="container">
+
+				<div class="feedback__items_header">
+					<h2 class="feedback__title section__title">Отзывы о нас</h2>
+					<span class="feedback__btn section_btn" href="#">Оставить свой</span>
+				</div>
+					
+				<section class="feedback__slider">
+					<div class="feedback__slider_items">
+						<div class="feedback__item">
+							<div class="feedback__img">
+								<img src="../img/feedback__img/Layer-1.jpg" alt="клиент">
+							</div>
+							<div class="feedback__info">
+								<div class="feedback__name">
+									Трэвис Баркер
+								</div>
+								<div class="feedback__text">
+									<p>
+										Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+									</p>
+								</div>
+							</div>				
+						</div>
+						<div class="feedback__item">
+							<div class="feedback__img">
+								<img src="../img/feedback__img/Layer-1.jpg" alt="клиент">
+							</div>
+							<div class="feedback__info">
+								<div class="feedback__name">
+									Трэвис Баркер
+								</div>
+								<div class="feedback__text">
+									<p>
+										Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+									</p>
+								</div>
+							</div>				
+						</div>
+						<div class="feedback__item">
+							<div class="feedback__img">
+								<img src="../img/feedback__img/Layer-1.jpg" alt="клиент">
+							</div>
+							<div class="feedback__info">
+								<div class="feedback__name">
+									Трэвис Баркер
+								</div>
+								<div class="feedback__text">
+									<p>
+										Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+									</p>
+								</div>
+							</div>				
+						</div>
+						
+					</div>
+				</section>
+				
+			</div>
+		</section>
 </main>
 
 <!-- ========= main end =========== -->
@@ -219,6 +428,7 @@
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 	<!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
 	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>
 	
 </body>
