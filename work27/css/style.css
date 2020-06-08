@@ -721,8 +721,8 @@ body {
 }
 .main .news__items_main {
   display: flex;
-  justify-content: space-around;
-  margin: 0 120px 15px;
+  justify-content: space-between;
+  margin: 0 50px 15px;
 }
 .main .news__items_main .news__item {
   max-width: 320px;
@@ -752,6 +752,7 @@ body {
   border-right: 25px solid transparent;
   border-top: 16px solid #000;
   z-index: -1;
+  transition: all 1s ease-in-out;
 }
 .main .news__items_main .news__item .news__item_time .number {
   font-weight: 700;
@@ -775,8 +776,8 @@ body {
 }
 .main .news .news__items_main-duble .news__doble-wrapper {
   display: flex;
-  justify-content: space-around;
-  margin: 0 120px 15px;
+  justify-content: space-between;
+  margin: 0 50px 15px;
 }
 .main .news .news__items_main-duble .news__doble-wrapper .news__item {
   max-width: 320px;
@@ -825,6 +826,7 @@ body {
   color: #000;
 }
 .main .feedback {
+  position: relative;
   padding: 30px 0 15px;
   background: #f8f5f2;
 }
@@ -835,8 +837,8 @@ body {
   margin-bottom: 50px;
 }
 .main .feedback .feedback__slider {
-  width: 67%;
-  margin: 0 0 0 155px;
+  width: 83%;
+  margin: 0 0 0 90px;
 }
 .main .feedback .feedback__slider .feedback__slider_items {
   position: relative;
@@ -923,4 +925,192 @@ body {
 .main .feedback .feedback__slider .slick-dots .slick-active button {
   background: #fff;
   border: 1px solid #e5ddd5;
+}
+.main .feedback__form {
+  display: none;
+  width: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 50px;
+  text-align: center;
+  color: #000;
+  background: #f8f5f2;
+  box-shadow: 0px 10px 45px 10px black;
+  z-index: 2;
+}
+.main .feedback__form .feedback__close_btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  background: #826550;
+  transition: all 0.3s ease-in-out;
+}
+.main .feedback__form .feedback__close_btn:hover {
+  cursor: pointer;
+  background: #6a4d38;
+  transition: all 0.3s ease-in-out;
+}
+.main .feedback__form .feedback__close_btn::before {
+  content: "✖";
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  animation: close_btn 5s linear infinite;
+}
+.main .feedback__form .feedback__close_btn:hover::before {
+  transform: scale(1.8);
+}
+@keyframes close_btn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.main .feedback__form_title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.main .feedback__form form .feedback__form_user input[type=text],
+.main .feedback__form form .feedback__form_user textarea[type=text] {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 5px;
+  padding: 20px 40px 20px 20px;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #e5ddd5;
+}
+.main .feedback__form form .feedback__form_user .user_text {
+  width: 100%;
+}
+.main .feedback__form form .feedback__form_user .user_text textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: none;
+}
+.main .feedback__form form .feedback__form_user .user_submit {
+  width: 100%;
+  padding: 10px 60px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #826550;
+  transition: all 0.3s ease-in-out;
+}
+.main .feedback__form form .feedback__form_user .user_submit[type=submit]:hover {
+  background: #6a4d38;
+  cursor: pointer;
+}
+
+.footer {
+  background: #353535;
+}
+.footer .footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  padding: 0px 50px;
+}
+.footer .footer__inner .footer__item {
+  width: 350px;
+}
+.footer .footer__inner .footer__item .footer__item_title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.footer .footer__inner .footer__item .footer__item_adress {
+  margin-bottom: 15px;
+}
+.footer .footer__inner .footer__item .footer__item_adress a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+.footer .footer__inner .footer__item .footer__item_tel a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+.footer .footer__inner .footer__item .footer__item_social {
+  width: 100%;
+  height: 100%;
+}
+.footer .footer__inner .footer__item .footer__item_social a {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  font-size: 25px;
+  font-family: "icomoon";
+  color: #fff;
+  border: 1px solid #3d3d3d;
+}
+.footer .footer__inner .footer__item .footer__item_social .vkontakte::after {
+  content: "";
+  position: relative;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footer .footer__inner .footer__item .footer__item_social .facebook {
+  margin: 0 10px;
+}
+.footer .footer__inner .footer__item .footer__item_social .facebook::after {
+  content: "";
+  position: relative;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footer .footer__inner .footer__item .footer__item_social .instagram::after {
+  content: "";
+  position: relative;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.footer .footer__inner .footer__item .developer__link {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #3f3f3f;
+}
+.footer .footer__inner .fx-1 {
+  text-align: start;
+}
+.footer .footer__inner .fx-2 {
+  text-align: center;
+}
+.footer .footer__inner .fx-3 {
+  text-align: right;
+}
+.footer .footer__inner .fx-3 .footer__item_title {
+  margin-right: 13px;
 }

@@ -3,14 +3,25 @@
 //@prepros-append js-end.js
 // alert("Привет"),alert("mir");
 
+// окно входа в личный кабинет
 $('.nav__link-user , .nav__burger-user').click(function(){
     $('.header__form').slideToggle();
 });
 $('.header__close_btn').click(function(){
     $('.header__form').slideToggle();
 });
+
+// окно новости и акцыи кнопка - показать всё
 $('.news__btn').click(function(){
     $('.news__items_main-duble').slideToggle();
+});
+
+// окно отзывов
+$('.feedback__btn').click(function(){
+    $('.feedback__form').slideToggle();
+});
+$('.feedback__close_btn').click(function(){
+    $('.feedback__form').slideToggle();
 });
 
 // $('.header__burger__btn').click(function(){
@@ -43,7 +54,7 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 4000,
 		arrows: true,
-		dots:true,
+		dots:false,
 		infinite: true,
 		responsive: [
 			{
