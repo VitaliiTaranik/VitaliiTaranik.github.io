@@ -149,7 +149,8 @@ body {
   margin: 0 auto;
 }
 
-.container_works {
+.container_works,
+.container_pricelist {
   max-width: 980px;
   margin: 0 auto;
   padding: 0 10px;
@@ -1127,6 +1128,56 @@ body {
 }
 .main .works .works__body .work__top .work__description {
   width: 50%;
+}
+.main .pricelist .pricelist__header .pricelist__title {
+  padding: 75px 0 50px 0;
+  color: #fff;
+}
+.main .pricelist .pricelist__body .pricelist__inner {
+  max-width: 640px;
+}
+.main .pricelist .pricelist__body .pricelist__inner .pricelist__items .pricelist__item div {
+  text-align: center;
+  border: 1px solid #4a4a4a;
+  padding: 20px;
+}
+.main .pricelist .pricelist__body .pricelist__inner .pricelist__items .pricelist__item .pricelist__item__number {
+  font-weight: 400;
+  font-size: 20px;
+  color: #848484;
+}
+.main .pricelist .pricelist__body .pricelist__inner .pricelist__items .pricelist__item .pricelist__item__title {
+  max-width: 300px;
+  min-width: 300px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.main .pricelist .pricelist__body .pricelist__inner .pricelist__items .pricelist__item .pricelist__item__description {
+  max-width: 160px;
+  min-width: 160px;
+}
+.main .pricelist .pricelist__body .pricelist__inner .pricelist__items .pricelist__item .pricelist__item__price {
+  max-width: 100px;
+  min-width: 100px;
+}
+.main .pricelist .pricelist__body .pricelist__clock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main .pricelist .pricelist__body .pricelist__clock .clock__inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid #4a4a4a;
+}
+.main .pricelist .pricelist__body .pricelist__clock .clock__inner .clock__sale {
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .footer {
