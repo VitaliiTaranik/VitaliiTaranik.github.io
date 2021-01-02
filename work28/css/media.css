@@ -43,7 +43,7 @@
 	
 }
 
-@media screen and (min-width: 319px) and (max-width: 353px) {
+@media screen and (min-width: 317px) and (max-width: 353px) {
    .modal_title-last::after{
       top: 17px;
    }
