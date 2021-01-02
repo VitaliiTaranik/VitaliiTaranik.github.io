@@ -1,0 +1,52 @@
+
+/* 1601 - 1920 */
+@media (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media (max-width:1600px){	
+
+}
+
+/* 961 - 1368 */
+@media (max-width:1368px){
+	
+}
+
+/* 769 - 960 */
+@media (max-width:960px){
+	
+}
+
+/* 481 - 768 */
+@media (max-width:768px){
+   .worker__card{
+      flex-direction: column;
+   }
+   .card_description{
+      text-align: center;
+   }
+   .card__main{
+      margin: 0 auto;
+   }
+   .description__subtitle{
+      margin-bottom: 15px;
+   }
+   .description__aside{
+      line-height: 1.5em;
+   }
+}
+
+/* 320 - 480 */
+@media (max-width:480px){
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 352px) {
+   .modal_title-last::after{
+      top: 17px;
+   }
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
