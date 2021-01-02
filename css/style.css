@@ -18,7 +18,7 @@ body{
 	background-position: center;
 	z-index: -1;
 }
-ul, li,{display: block;margin: 0;padding: 0;list-style-type:none;transition: all 0.5s ease;}
+ul, li {display: block;margin: 0;padding: 0;list-style-type:none;transition: all 0.5s ease;}
 a{ text-decoration: none;transition: all 0.5s ease;}
 h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
 .flex{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;}
@@ -641,6 +641,11 @@ ul li:nth-child(5) a span::after{
 	background: url(../img/works/work28.jpg) no-repeat top/cover;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
+}
+.work-29{
+	background: url(../img/works/work29.png) no-repeat center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 30%;
 }
 
 .project-category{
