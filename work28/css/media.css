@@ -43,7 +43,19 @@
 	
 }
 
-@media screen and (min-width: 317px) and (max-width: 353px) {
+@media (max-height:540px){
+	.main__section{
+      margin: -2px auto;
+   }
+}
+
+@media (max-height:374px){
+	.container{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+@media (min-width: 317px) and (max-width: 353px) {
    .modal_title-last::after{
       top: 17px;
    }
