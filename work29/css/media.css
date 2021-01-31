@@ -1,0 +1,237 @@
+
+/* 1601 - 1920 */
+@media (max-width:1920px){	
+
+}
+
+/* 1369 - 1600 */
+@media (max-width:1600px){	
+
+}
+
+/* 961 - 1368 */
+@media (max-width:1368px){
+	
+}
+
+@media (max-width:1026px){
+   .founder__biography{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .founder__photo img{
+      width: 70%;
+   }
+}
+
+/* 769 - 960 */
+@media (max-width:960px){
+   .section__tasks,
+   .section__mission,
+   .products__inner,
+   .section__brainchild,
+   .founder__biography,
+   .founder__links_inner,
+   .electronics__shop,
+   .electronics__cashback,
+   .section__statistics,
+   .perks__inner{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .products__list{
+      margin: 0;
+   }
+   .founder__link{
+      margin-bottom: 15px;
+      padding: 10px 30px;
+   }
+   .shop__img,
+   .cashback__img{
+      margin: 0;
+   }
+   .shop__img img,
+   .cashback__img img{
+     width: 100%;
+     padding: 5px;
+   }
+   .shop_description,
+   .cashback__deckription,
+   .bonus__column_text{
+      font-size: 15px;
+      line-height: 18px;
+   }
+   .statistics__box{
+      align-items: center;
+   }
+   .perks__wrapper-1{
+      margin-bottom: 20px;
+   }
+   .perks__title{
+      margin-bottom: 0;
+   }
+   .education__video img{
+      max-width: 95%;
+   }
+   .education__video iframe{
+      max-width: 90%;
+      height: 85%;
+   }
+}
+
+
+/* 481 - 768 */
+@media (max-width:768px){
+   .section_title{
+      font-size: 32px;
+   }
+   .section__text{
+      font-size: 10px;
+      text-align: center;
+   }
+   .section__government,
+   .taxi__work_inner{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .government__content,
+   .tasks__content,
+   .mission__content,
+   .brainchild__content,
+   .statistics__content{
+      padding: 20px 0;
+   }
+   .mission__box img{
+      max-width: 100%;
+      margin: 0;
+   }
+   .news-box,
+   .taxi__work{
+      flex-direction: column;
+      align-items: center;
+   }
+   .info__subtitle-1,
+   .bonus__title{
+      font-size: 30px;
+   }
+   .info__subtitle-2,
+   .bonus__lead,
+   .bonus__subtitle{
+      font-size: 20px;
+   }
+   .info__subtitle-3{
+      font-size: 30px;
+   }
+   .title__description {
+      font-size: 24px;
+   }
+   .section__line{
+      margin-bottom: 10px;
+   }
+   .products__item{
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+   }
+   .info-text p:last-child{
+      font-size: 12px;
+   }
+   .products__img img{
+      width: 80%;
+   }
+   .founder__photo img,
+   .founder__photo{
+      max-width: 100%;
+   }
+   .founder__inner {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  .bonus__img{
+     width: 75%;
+  }
+  .bonus__column{
+     margin-bottom: 20px;
+  }
+  .certificate__button,
+  .bonus__box,
+  .taxi__content{
+     flex-direction: column;
+  }
+  .certificate__button_inner{
+     width: 90%;
+     margin: 0 auto 20px;
+  }
+  .taxi__inner,
+  .taxi__work_content{
+     max-width: 100%;
+  }
+}
+
+/* 320 - 480 */
+@media (max-width:480px){
+   .header__title{
+      font-size: 80px;
+   }
+   .header__subtitle strong{
+      font-size: 45px;
+   }
+	.header__button-registration{
+      padding: 15px 10px;
+   }
+   .founder__photo img{
+      width: 100%;
+   }
+   .video__item{
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+      text-align: center;
+      border: 1px solid #fff;
+      box-shadow: 0px 0px 5px 4px rgb(255 255 255 / 50%),
+                  inset 0px 0px 5px 4px rgb(255 255 255 / 50%);
+      background: none;
+   }
+   .video__item iframe{
+      width: 100%;
+   }
+   .accordion-header{
+      padding: 15px 0;
+   }
+   .header__button-registration{
+      font-size: 17px;
+   }
+   .costs__inner{
+      padding: 20px 30px;
+   }
+   .costs__title {
+      font-size: 35px;
+      line-height: 40px;
+   }
+   .education__title{
+      font-size: 20px;
+   }
+   .education__video img{
+      max-width: 95%;
+   }
+   .education__video iframe{
+      max-width: 90%;
+      height: 85%;
+   }
+   .education__dropdown, .accordion-header{
+      font-size: 12px;
+   }
+   .accordion-header::after{
+      font-size: 12px;
+   }
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 479px) {}*/
