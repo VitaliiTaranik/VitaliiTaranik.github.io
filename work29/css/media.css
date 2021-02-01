@@ -81,10 +81,13 @@
    }
    .tasks__box{
       max-width: 100%;
-      justify-content: space-around;
+      flex-direction: column;
    }
    .tasks__box img{
-      width: 25%;
+      width: 276px;
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto 10px;
    }
 }
 
