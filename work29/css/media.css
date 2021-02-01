@@ -79,11 +79,13 @@
       max-width: 90%;
       height: 85%;
    }
-   .tasks__box{
+   .tasks__box,
+   .mission__box{
       max-width: 100%;
       flex-direction: column;
    }
-   .tasks__box img{
+   .tasks__box img,
+   .mission__box img{
       width: 276px;
       max-width: 50%;
       height: auto;
@@ -98,7 +100,7 @@
       font-size: 32px;
    }
    .section__text{
-      font-size: 10px;
+      font-size: 14px;
       text-align: center;
    }
    .section__government,
@@ -114,10 +116,10 @@
    .statistics__content{
       padding: 20px 0;
    }
-   .mission__box img{
+   /* .mission__box img{
       max-width: 100%;
       margin: 0;
-   }
+   } */
    .news-box,
    .taxi__work{
       flex-direction: column;
