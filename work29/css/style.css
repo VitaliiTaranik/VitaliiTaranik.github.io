@@ -321,7 +321,7 @@ img{
    display: flex;
    justify-content: space-between;
    background-image: url(../img/main/government/government-bg.jpg);
-   background-position: center center;
+   background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    /* background-attachment: fixed; */
@@ -357,7 +357,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .tasks__content {
@@ -393,7 +393,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .mission__content {
@@ -553,7 +553,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .brainchild__content {
@@ -676,7 +676,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .section__manifestation::after{
@@ -764,7 +764,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .statistics__content {
@@ -904,7 +904,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
 }
 .costs__inner {
    width: 600px;
@@ -927,7 +927,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .education__title {
@@ -1192,7 +1192,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .taxi__content {
@@ -1335,11 +1335,11 @@ img{
 /* section__card */
 .section__card {
    width: 100%;
-   background: url(../img/main/card/card-bg.jpg);
+   background-image: url(../img/main/card/card-bg.jpg);
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .taxi__title {
@@ -1453,7 +1453,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .contact__end::after{
