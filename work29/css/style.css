@@ -227,7 +227,7 @@ img{
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .header::after{
@@ -320,11 +320,11 @@ img{
    width: 100%;
    display: flex;
    justify-content: space-between;
-   background-image: url(../img/main/government/government-bg-1.jpg);
+   background-image: url(../img/main/government/government-bg.jpg);
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   /* background-attachment: fixed; */
    z-index: 1;
 }
 .government__content {
