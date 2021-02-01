@@ -79,6 +79,13 @@
       max-width: 90%;
       height: 85%;
    }
+   .tasks__box{
+      max-width: 100%;
+      justify-content: space-around;
+   }
+   .tasks__box img{
+      width: 25%;
+   }
 }
 
 
