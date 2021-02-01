@@ -223,7 +223,7 @@ img{
    position: relative;
    display: flex;
    justify-content: center;
-   background: url(../img/header/header-bg.jpg);
+   /* background-image: url(../img/header/header-bg.jpg); */
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -237,7 +237,7 @@ img{
    position: absolute;
    top: 0;
    left: 0;
-   background: radial-gradient(rgba(251, 139, 1) 0%, rgba(251, 66, 255, 1) 100%);
+   background-image: radial-gradient(rgba(251, 139, 1) 0%, rgba(251, 66, 255, 1) 100%);
    z-index: -1;
    opacity: 0.8;
 }
