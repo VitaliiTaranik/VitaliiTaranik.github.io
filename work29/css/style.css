@@ -219,7 +219,7 @@ img{
 /* ========= header ============= */
 .header {
    width: 100%;
-   height: 100vh;
+   /* height: 100vh; */
    position: relative;
    display: flex;
    justify-content: center;
@@ -718,9 +718,9 @@ img{
 /* section__manifestation end */
 
 /* section__electronics */
-.section__electronics{
+/* .section__electronics{
    padding-top: 50px;
-}
+} */
 .electronics__title{
    color: rgb(0, 0, 0);
 }
@@ -1506,16 +1506,6 @@ img{
 .contact__social {
    margin-bottom: 5px;
 }
-.contact__registration {
-}
-.contact__presentation {
-}
-.contact__copy {
-}
-.contact__logo{
-   width: 300px;
-}
-
 /* section__contacts end */
 
 /* ========= main end =========== */
