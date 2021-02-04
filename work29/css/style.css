@@ -242,6 +242,9 @@ img{
 .header__social {
    display: flex;
    justify-content: space-around;
+	animation: bounceInDown;
+   -webkit-animation: bounceInDown;
+   animation-duration: 2s;
 }
 .social_link img {
    width: 50px;
