@@ -341,6 +341,7 @@ img{
 }
 .government__box img{
    max-width: 100%;
+   animation-delay: .7s;
 }
 /* section__government end */
 
@@ -377,6 +378,7 @@ img{
 .tasks__box img{
    width: 45%;
    margin: 0 5px;
+   animation-delay: .7s;
 }
 /* section__tasks end */
 
@@ -413,6 +415,7 @@ img{
 .mission__box img{
    width: 300px;
    margin-right: 50px;
+   animation-delay: .7s;
 }
 /* section__mission end */
 
@@ -474,6 +477,7 @@ img{
    -moz-border-radius:50%;
    -ms-border-radius:50%;
    -o-border-radius:50%;
+   animation-delay: .7s;
 }
 .info__news-2 {
    width: 250px;
@@ -485,6 +489,7 @@ img{
    -moz-border-radius:50%;
    -ms-border-radius:50%;
    -o-border-radius:50%;
+   animation-delay: .7s;
 }
 .info-text {
    text-align: center;
@@ -569,6 +574,7 @@ img{
 }
 .brainchild__box img{
    max-width: 100%;
+   animation-delay: .7s;
 }
 /* section__brainchild end */
 
@@ -602,6 +608,7 @@ img{
 }
 .founder__text {
    color: rgb(255, 255, 255);
+   animation-delay: .7s;
 }
 .founder__text p {
    margin-bottom: 15px;
@@ -725,10 +732,12 @@ img{
 }
 .shop__img {
    margin-right: 30px;
+   animation-delay: .7s;
 }
 .shop_description {
    font-size: 20px;
    line-height: 25px;
+   animation-delay: .7s;
 }
 .electronics__cashback {
    display: flex;
@@ -738,10 +747,12 @@ img{
 }
 .cashback__img {
    margin-left: 30px;
+   animation-delay: .7s;
 }
 .cashback__deckription {
    font-size: 20px;
    line-height: 25px;
+   animation-delay: .7s;
 }
 /* section__electronics end */
 
@@ -779,6 +790,7 @@ img{
 .statistics__box img{
    width: 70%;
    margin: 0 5px 10px 5px;
+   animation-delay: .7s;
 }
 /* section__statistics end */
 
@@ -800,6 +812,7 @@ img{
    padding: 0 5px;
    text-align: center;
    text-shadow: rgb(0 0 0 / 50%) 1px 3px 2px;
+   animation-delay: .7s;
 }
 .perks__title {
    margin-bottom: 20px;
@@ -816,6 +829,7 @@ img{
    padding: 0 5px;
    text-align: center;
    text-shadow: rgb(0 0 0 / 50%) 1px 3px 2px;
+   animation-delay: .7s;
 }
 /* section__perks end */
 
@@ -840,6 +854,7 @@ img{
 }
 .bonus__img {
    width: 60%;
+   animation-delay: .7s;
 }
 .bonus__box{
    display: flex;
@@ -855,6 +870,7 @@ img{
    padding: 10px 5px;
    background-image: linear-gradient(to bottom, rgba(251, 139, 0, 0.7) 0%, rgba(251, 66, 255, 0.7) 100%);
    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 50%);
+   animation-delay: .7s;
 }
 .bonus__column_title {
    font-size: 26px;
@@ -902,6 +918,7 @@ img{
    font-size: 45px;
    line-height: 55px;
    text-align: center;
+   animation-delay: .7s;
 }
 /* section__costs end */
 
