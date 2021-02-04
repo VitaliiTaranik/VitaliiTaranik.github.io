@@ -242,9 +242,6 @@ img{
 .header__social {
    display: flex;
    justify-content: space-around;
-   animation: bounceInDown;
-   -webkit-animation: bounceInDown;
-   animation-duration: .7s;
 }
 .social_link img {
    width: 50px;
@@ -252,9 +249,6 @@ img{
 .header__logo{
    text-align: center;
    margin-bottom: 20px;
-   animation: flipInY;
-   -webkit-animation: flipInY;
-   animation-duration: 1s;
 }
 .header__logo img {
    max-width: 130px;
@@ -277,17 +271,11 @@ img{
                rgb(0 0 0 / 20%) 0 5px 10px, 
                rgb(0 0 0 / 20%) 0 10px 10px, 
                rgb(0 0 0 / 10%) 0 20px 20px;
-               animation: fadeInDownBig;
-   -webkit-animation: fadeInDownBig;
-   animation-duration: 1s;
 }
 .header__subtitle{
    color: rgb(255, 255, 255);
    text-shadow: rgb(0 0 0 / 50%) 2px 5px 4px;
    margin-bottom: 50px;
-   animation: zoomIn;
-   -webkit-animation: zoomIn;
-   animation-duration: 1s;
 }
 .header__subtitle strong{
    display: block;
@@ -318,9 +306,6 @@ img{
    border: 1px solid rgb(189, 0, 193);
    background-color: rgba(126, 0, 128, 0.76);
    cursor: pointer;
-   animation: zoomIn;
-   -webkit-animation: zoomIn;
-   animation-duration: 1s;
 }
 /* ========= header end ========= */
 
@@ -356,9 +341,6 @@ img{
 }
 .government__box img{
    max-width: 100%;
-   animation: fadeInRight;
-   -webkit-animation: fadeInRight;
-   animation-duration: .7s;
 }
 /* section__government end */
 
@@ -391,14 +373,10 @@ img{
    max-width: 35%;
    display: flex;
    padding: 15px 0;
-  
 }
 .tasks__box img{
    width: 45%;
    margin: 0 5px;
-   animation: fadeInRight;
-   -webkit-animation: fadeInRight;
-   animation-duration: .7s;
 }
 /* section__tasks end */
 
@@ -435,9 +413,6 @@ img{
 .mission__box img{
    width: 300px;
    margin-right: 50px;
-   animation: flipInY;
-   -webkit-animation: flipInY;
-   animation-duration: 1s;
 }
 /* section__mission end */
 
@@ -488,9 +463,6 @@ img{
    display: flex;
    justify-content: space-around;
    margin-bottom: 20px;
-   animation: flipInY;
-   -webkit-animation: flipInY;
-   animation-duration: 1s;
 }
 .info__news-1 {
    width: 250px;
@@ -502,7 +474,6 @@ img{
    -moz-border-radius:50%;
    -ms-border-radius:50%;
    -o-border-radius:50%;
-   animation-delay: .7s;
 }
 .info__news-2 {
    width: 250px;
@@ -514,7 +485,6 @@ img{
    -moz-border-radius:50%;
    -ms-border-radius:50%;
    -o-border-radius:50%;
-   animation-delay: .7s;
 }
 .info-text {
    text-align: center;
@@ -596,13 +566,9 @@ img{
    justify-content: center;
    align-items: center;
    max-width: 40%;
-  
 }
 .brainchild__box img{
    max-width: 100%;
-   animation: fadeInRight;
-   -webkit-animation: fadeInRight;
-   animation-duration: .7s;
 }
 /* section__brainchild end */
 
@@ -636,7 +602,6 @@ img{
 }
 .founder__text {
    color: rgb(255, 255, 255);
-   animation-delay: .7s;
 }
 .founder__text p {
    margin-bottom: 15px;
@@ -760,12 +725,10 @@ img{
 }
 .shop__img {
    margin-right: 30px;
-   animation-delay: .7s;
 }
 .shop_description {
    font-size: 20px;
    line-height: 25px;
-   animation-delay: .7s;
 }
 .electronics__cashback {
    display: flex;
@@ -775,12 +738,10 @@ img{
 }
 .cashback__img {
    margin-left: 30px;
-   animation-delay: .7s;
 }
 .cashback__deckription {
    font-size: 20px;
    line-height: 25px;
-   animation-delay: .7s;
 }
 /* section__electronics end */
 
@@ -818,7 +779,6 @@ img{
 .statistics__box img{
    width: 70%;
    margin: 0 5px 10px 5px;
-   animation-delay: .7s;
 }
 /* section__statistics end */
 
@@ -840,7 +800,6 @@ img{
    padding: 0 5px;
    text-align: center;
    text-shadow: rgb(0 0 0 / 50%) 1px 3px 2px;
-   animation-delay: .7s;
 }
 .perks__title {
    margin-bottom: 20px;
@@ -857,7 +816,6 @@ img{
    padding: 0 5px;
    text-align: center;
    text-shadow: rgb(0 0 0 / 50%) 1px 3px 2px;
-   animation-delay: .7s;
 }
 /* section__perks end */
 
@@ -882,7 +840,6 @@ img{
 }
 .bonus__img {
    width: 60%;
-   animation-delay: .7s;
 }
 .bonus__box{
    display: flex;
@@ -898,7 +855,6 @@ img{
    padding: 10px 5px;
    background-image: linear-gradient(to bottom, rgba(251, 139, 0, 0.7) 0%, rgba(251, 66, 255, 0.7) 100%);
    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 50%);
-   animation-delay: .7s;
 }
 .bonus__column_title {
    font-size: 26px;
@@ -946,7 +902,6 @@ img{
    font-size: 45px;
    line-height: 55px;
    text-align: center;
-   animation-delay: .7s;
 }
 /* section__costs end */
 
