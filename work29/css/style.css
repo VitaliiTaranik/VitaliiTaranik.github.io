@@ -242,9 +242,9 @@ img{
 .header__social {
    display: flex;
    justify-content: space-around;
-	animation: bounceInDown;
+   animation: bounceInDown;
    -webkit-animation: bounceInDown;
-   animation-duration: 2s;
+   animation-duration: .7s;
 }
 .social_link img {
    width: 50px;
@@ -252,6 +252,9 @@ img{
 .header__logo{
    text-align: center;
    margin-bottom: 20px;
+   animation: flipInY;
+   -webkit-animation: flipInY;
+   animation-duration: 2s;
 }
 .header__logo img {
    max-width: 130px;
@@ -274,11 +277,17 @@ img{
                rgb(0 0 0 / 20%) 0 5px 10px, 
                rgb(0 0 0 / 20%) 0 10px 10px, 
                rgb(0 0 0 / 10%) 0 20px 20px;
+               animation: fadeInDownBig;
+   -webkit-animation: fadeInDownBig;
+   animation-duration: 1s;
 }
 .header__subtitle{
    color: rgb(255, 255, 255);
    text-shadow: rgb(0 0 0 / 50%) 2px 5px 4px;
    margin-bottom: 50px;
+   animation: zoomIn;
+   -webkit-animation: zoomIn;
+   animation-duration: 1s;
 }
 .header__subtitle strong{
    display: block;
@@ -309,6 +318,9 @@ img{
    border: 1px solid rgb(189, 0, 193);
    background-color: rgba(126, 0, 128, 0.76);
    cursor: pointer;
+   animation: zoomIn;
+   -webkit-animation: zoomIn;
+   animation-duration: 1s;
 }
 /* ========= header end ========= */
 
