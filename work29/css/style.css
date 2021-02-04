@@ -254,7 +254,7 @@ img{
    margin-bottom: 20px;
    animation: flipInY;
    -webkit-animation: flipInY;
-   animation-duration: 2s;
+   animation-duration: .7s;
 }
 .header__logo img {
    max-width: 130px;
@@ -353,6 +353,9 @@ img{
 }
 .government__box{
    max-width: 25%;
+   animation: fadeInRight;
+   -webkit-animation: fadeInRight;
+   animation-duration: .7s;
 }
 .government__box img{
    max-width: 100%;
@@ -389,6 +392,9 @@ img{
    max-width: 35%;
    display: flex;
    padding: 15px 0;
+   animation: fadeInRight;
+   -webkit-animation: fadeInRight;
+   animation-duration: .7s;
 }
 .tasks__box img{
    width: 45%;
@@ -426,6 +432,9 @@ img{
    max-width: 35%;
    display: flex;
    padding: 25px 0;
+   animation: flipInY;
+   -webkit-animation: flipInY;
+   animation-duration: .7s;
 }
 .mission__box img{
    width: 300px;
@@ -481,6 +490,9 @@ img{
    display: flex;
    justify-content: space-around;
    margin-bottom: 20px;
+   animation: flipInY;
+   -webkit-animation: flipInY;
+   animation-duration: .7s;
 }
 .info__news-1 {
    width: 250px;
@@ -586,6 +598,9 @@ img{
    justify-content: center;
    align-items: center;
    max-width: 40%;
+   animation: fadeInRight;
+   -webkit-animation: fadeInRight;
+   animation-duration: .7s;
 }
 .brainchild__box img{
    max-width: 100%;
