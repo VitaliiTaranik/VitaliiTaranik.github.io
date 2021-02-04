@@ -307,9 +307,6 @@ img{
    border: 1px solid rgb(189, 0, 193);
    background-color: rgba(126, 0, 128, 0.76);
    cursor: pointer;
-   /* animation-delay: 1s;
-   animation-name: zoomIn;
-   -webkit-animation-name: zoomIn; */
 }
 /* ========= header end ========= */
 
@@ -345,9 +342,6 @@ img{
 }
 .government__box img{
    max-width: 100%;
-   animation-delay: .5s;
-   animation-name: fadeInRight;
-   -webkit-animation-name: fadeInRight;
 }
 /* section__government end */
 
@@ -384,9 +378,6 @@ img{
 .tasks__box img{
    width: 45%;
    margin: 0 5px;
-   animation-delay: .5s;
-   animation-name: flipInY;
-   -webkit-animation-name: flipInY;
 }
 /* section__tasks end */
 
@@ -423,9 +414,6 @@ img{
 .mission__box img{
    width: 300px;
    margin-right: 50px;
-   animation-delay: .5s;
-   animation-name: fadeInRight;
-   -webkit-animation-name: fadeInRight;
 }
 /* section__mission end */
 
