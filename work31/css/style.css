@@ -771,17 +771,11 @@ h2.title{
 	width: inherit;
    max-height: 280px;
    min-height: 280px;
-	/* height: inherit; */
 	overflow: hidden;
-	/* position: relative; */
-	/* -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	box-shadow: 0 0 20px rgba(0, 0, 0, .5); */
+	position: relative;
 }
 .slides {
    max-width: 100%;
-	/* height: inherit; */
 	opacity: 0;
 	position: absolute;
 	width: inherit;
@@ -858,5 +852,13 @@ h2.title{
 	border-radius: 50%;
    z-index: -1;
 }
+/* .slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6{
+
+} */
 /* slder end */
 
