@@ -28,7 +28,7 @@ function mask(e) {
 window.addEventListener("DOMContentLoaded", function () {
    var input = document.querySelector("#online_phone");
    input.addEventListener("input", mask, false);
-   input.focus(false);
+   input.focus(true);
    setCursorPosition(3, input);
 });
 
@@ -57,4 +57,22 @@ accordion()
 
 $('.menu__mobile-btn').click(function () {
    $('.menu__inner').slideToggle();
+});
+
+$(document).ready(function () {
+   $('.menu__mobile-btn').click(function () {
+      $('.menu__mobile-btn').toggleClass('active')
+   })
+})
+
+$('.slider').slick({
+   fade: true,
+   speed: 500,
+   autoplaySpeed: 4000,
+   arrows: false,
+   dots: true,
+   infinite: true,
+   slidesToShow: 1,
+   adaptiveHeight: true,
+   autoplay: true,
 });

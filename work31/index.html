@@ -32,6 +32,10 @@
    <!-- Перенаправление на нужную страницу -->
    <!-- <meta http-equiv="refresh" content="0; url= "> -->
 
+   <!-- Подключение animate css -->
+   <link rel="stylesheet" href="css/animate.css" />
+   <!-- Подключение slick-slider css -->
+   <link rel="stylesheet" type="text/css" href="css/slick.css" />
    <!-- Подключение normalize css -->
    <link type="text/css" rel="stylesheet" href="css/normalize.css">
    <!-- Подключение css -->
@@ -49,13 +53,17 @@
          <div class="container">
 
             <div class="top__header flex">
-               <button class="menu__mobile-btn"></button>
-               <div class="header__logo">
+               <div class="menu__mobile-btn">
+                  <span class="mobile-btn mobile-btn-1"></span>
+                  <span class="mobile-btn mobile-btn-2"></span>
+                  <span class="mobile-btn mobile-btn-3"></span>
+               </div>
+               <div class="header__logo wow fadeInDown">
                   <a href="index.html">
                      <img src="img/header/logo.svg" alt="Логотип сайта">
                   </a>
                </div>
-               <nav class="menu__inner">
+               <nav class="menu__inner wow fadeInDown">
                   <ul class="menu__items flex ta-center">
                      <li class="menu__item">
                         <a href="#advantages" class="menu__link">Преимущества</a>
@@ -68,14 +76,14 @@
                      </li>
                   </ul>
                </nav>
-               <div class="menu__phone flex">
+               <div class="menu__phone flex wow fadeInDown">
                   <div class="menu__num flex ta-right">
                      <a href="tel:8 800 333 45 54">8 800 333 45 54</a>
                      <span class="num__description">
                         Звонок бесплатный
                      </span>
                   </div>
-                  <a class="menu__btn top__btn" href="tel: 8 800 333 45 54">Заказать звонок</a>
+                  <a class="menu__btn top__btn" href="#requisition">Заказать звонок</a>
                </div>
                <a class="phone_mobile" href="tel:8 800 333 45 54"><img src="img/header/phone.svg" alt="Телефон"></a>
             </div>
@@ -83,7 +91,7 @@
          </div>
          <div class="main__header">
             <div class="container">
-               <div class="header__inner">
+               <div class="header__inner wow fadeInLeft">
                   <div class="header__preview">
                      Выбаем займы физ. лицам и юр. лицам
                   </div>
@@ -125,7 +133,7 @@
                         </div>
                      </div>
                      <div class="priority__item flex">
-                        <a class="priority__btn btn">Отправить заявку</a>
+                        <a href="#requisition" class="priority__btn btn">Отправить заявку</a>
                      </div>
                   </div>
                </div>
@@ -141,8 +149,8 @@
          <section class="advantages" id="advantages">
             <div class="container">
 
-               <div class="advantages__header">
-                  <h2 class="advantages__title title">
+               <div class="advantages__header wow fadeInDown">
+                  <h2 class="advantages__title title ">
                      Преимущества займа под недвижимость
                   </h2>
                   <div class="advantages__subtitle">
@@ -151,6 +159,114 @@
                </div>
 
                <div class="advantages__main">
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-3.svg" alt="Время">
+                        </div>
+                        <h3 class="block__title">
+                           Никаких требований к собственности
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Дадим займ даже если собственность в залоге или аресте </li>
+                           <li class="block__item">Подходит недвижимость любой ликвидности и состояния</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-1.svg" alt="Без страховок и штрафов">
+                        </div>
+                        <h3 class="block__title">
+                           Без страховок и штрафов
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Досрочное погашение и продление займа без комиссий и переплат</li>
+                           <li class="block__item">У нас можно не страховать кредит и нет штрафов за просрочки</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-6.svg" alt="Одобрение займа">
+                        </div>
+                        <h3 class="block__title">
+                           100&#37; одобрение займа
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Одобряем даже с плохой кредитной историей, без подтверждения дохода
+                           </li>
+                           <li class="block__item">От 70 до 90&#37; от рыночной стоимости недвижимости</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-4.svg" alt="Одобрение">
+                        </div>
+                        <h3 class="block__title">
+                           Минимум вашего времени
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Вам не нужно ходить по разным инстанциям, мы все сделаем за вас</li>
+                           <li class="block__item">Нужно всего 2 документа для физических лиц и 3 для юр. лиц</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-7.svg" alt="Риск">
+                        </div>
+                        <h3 class="block__title">
+                           Не рискуете потерять собственность
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Строго по закону ФЗ 102 «О залоге», договор заключаем в присутствии
+                              государственного нотариуса</li>
+                           <li class="block__item">Вы остаетесь собственником, документы остаются у вас</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="advantages__block wow fadeInUp">
+                     <div class="block__header">
+                        <div class="block__img">
+                           <img src="img/images-priority/priority-5.svg" alt="">
+                        </div>
+                        <h3 class="block__title">
+                           Ваша собственность в вашем распоряжении
+                        </h3>
+                     </div>
+                     <div class="block__list">
+                        <ul class="block__items">
+                           <li class="block__item">Можете сдавать вашу собственность, прописывать туда жильцов и тд.
+                           </li>
+                           <li class="block__item">Никогда не посещаем объект залога, даже при просрочках</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!-- slick-slder -->
+               <div class="slider">
 
                   <div class="advantages__block">
                      <div class="block__header">
@@ -256,148 +372,6 @@
                         </ul>
                      </div>
                   </div>
-               </div>
-
-               <div class="advantages__slider">
-
-                  <div class="wrapper__slider">
-                     <input type="radio" name="point" id="slide1" checked>
-                     <input type="radio" name="point" id="slide2">
-                     <input type="radio" name="point" id="slide3">
-                     <input type="radio" name="point" id="slide4">
-                     <input type="radio" name="point" id="slide5">
-                     <input type="radio" name="point" id="slide6">
-                     <div class="slider">
-
-                        <div class="slides slide1">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-3.svg" alt="Время">
-                                 </div>
-                                 <h3 class="block__title">
-                                    Никаких требований к собственности
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Дадим займ даже если собственность в залоге или аресте </li>
-                                    <li class="block__item">Подходит недвижимость любой ликвидности и состояния</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="slides slide2">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-1.svg" alt="Без страховок и штрафов">
-                                 </div>
-                                 <h3 class="block__title">
-                                    Без страховок и штрафов
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Досрочное погашение и продление займа без комиссий и
-                                       переплат</li>
-                                    <li class="block__item">У нас можно не страховать кредит и нет штрафов за просрочки
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="slides slide3">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-6.svg" alt="Одобрение займа">
-                                 </div>
-                                 <h3 class="block__title">
-                                    100&#37; одобрение займа
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Одобряем даже с плохой кредитной историей, без подтверждения
-                                       дохода
-                                    </li>
-                                    <li class="block__item">От 70 до 90&#37; от рыночной стоимости недвижимости</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="slides slide4">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-4.svg" alt="Одобрение">
-                                 </div>
-                                 <h3 class="block__title">
-                                    Минимум вашего времени
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Вам не нужно ходить по разным инстанциям, мы все сделаем за
-                                       вас</li>
-                                    <li class="block__item">Нужно всего 2 документа для физических лиц и 3 для юр. лиц
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="slides slide5">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-7.svg" alt="Риск">
-                                 </div>
-                                 <h3 class="block__title">
-                                    Не рискуете потерять собственность
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Строго по закону ФЗ 102 «О залоге», договор заключаем в
-                                       присутствии
-                                       государственного нотариуса</li>
-                                    <li class="block__item">Вы остаетесь собственником, документы остаются у вас</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="slides slide6">
-                           <div class="advantages__block">
-                              <div class="block__header">
-                                 <div class="block__img">
-                                    <img src="img/images-priority/priority-5.svg" alt="">
-                                 </div>
-                                 <h3 class="block__title">
-                                    Ваша собственность в вашем распоряжении
-                                 </h3>
-                              </div>
-                              <div class="block__list">
-                                 <ul class="block__items">
-                                    <li class="block__item">Можете сдавать вашу собственность, прописывать туда жильцов
-                                       и тд.
-                                    </li>
-                                    <li class="block__item">Никогда не посещаем объект залога, даже при просрочках</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="controls">
-                        <label for="slide1"></label>
-                        <label for="slide2"></label>
-                        <label for="slide3"></label>
-                        <label for="slide4"></label>
-                        <label for="slide5"></label>
-                        <label for="slide6"></label>
-                     </div>
-                  </div>
 
                </div>
             </div>
@@ -407,14 +381,14 @@
             <div class="container">
 
                <div class="requisition__inner">
-                  <div class="requisition__header flex">
-                     <h2 class="requisition__title title">Заявка на получение займа</h2>
+                  <div class="requisition__header flex wow fadeInDown">
+                     <h2 class="requisition__title title ">Заявка на получение займа</h2>
                      <div class="requisition__subtitle">
                         <p>100&#37; одобрение через 20 минут, деньги в течение дня.</p>
                         <p>Вы остаетесь владельцем собственности и пользуетесь ею.</p>
                      </div>
                   </div>
-                  <div class="requisition__main">
+                  <div class="requisition__main wow fadeInUp">
                      <form class="requisition__form" action="#" method="get" enctype="multipart/form-data">
 
                         <div class="fill">
@@ -442,7 +416,7 @@
             <div class="container">
 
                <div class="qestion__inner">
-                  <div class="qestion__header flex">
+                  <div class="qestion__header flex wow fadeInDown">
                      <h2 class="qestion__title title">
                         Ответы на популярные вопросы
                      </h2>
@@ -453,7 +427,7 @@
                   <div class="qestion__main">
                      <div class="qestion__accordion">
                         <ul class="accordion" data-accordion="open">
-                           <li>
+                           <li class="wow fadeInLeft">
                               <div class="accordion-header">
                                  <span class="accordion__circle"></span>
                                  Есть ли у вас недвижимость на продажу?
@@ -465,7 +439,7 @@
                                  Семантика домах лучше меня, встретил безорфографичный, выйти вдали вершину там города
                                  она все себя?</div>
                            </li>
-                           <li>
+                           <li class="wow fadeInLeft">
                               <div class="accordion-header">
                                  <span class="accordion__circle"></span>
                                  Могу ли я заложить недвижимость другого человека?
@@ -477,7 +451,7 @@
                                  пустился там! Лучше своих по всей что пор переулка заглавных дорогу агентство речью
                                  строчка, коварных несколько. Семантика вершину толку имеет текст? Семантика.</div>
                            </li>
-                           <li>
+                           <li class="wow fadeInLeft">
                               <div class="accordion-header">
                                  <span class="accordion__circle"></span>
                                  Вы работаете только в Москве?
@@ -497,7 +471,7 @@
          <section class="contacts" id="contacts">
             <div class="container">
 
-               <div class="contacts__inner flex">
+               <div class="contacts__inner flex wow fadeInUp">
                   <h3 class="contacts__title">
                      Контакты <span>автоломбарда</span>
                   </h3>
@@ -530,7 +504,7 @@
       <footer class="footer">
          <div class="container">
 
-            <div class="footer__inner flex">
+            <div class="footer__inner flex wow fadeInUp">
                <div class="footer__logo flex">
                   <a href="index.html">
                      <img src="img/header/logo.svg" alt="Логотип " class="logo__img">
@@ -585,6 +559,9 @@
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
    <script src="js/jquery-3.4.1.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script>new WOW().init();</script>
+   <script type="text/javascript" src="js/slick.min.js"></script>
    <script src="js/script.js"></script>
 
 </body>
