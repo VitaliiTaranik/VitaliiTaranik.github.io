@@ -28,7 +28,7 @@ function mask(e) {
 window.addEventListener("DOMContentLoaded", function () {
    var input = document.querySelector("#online_phone");
    input.addEventListener("input", mask, false);
-   input.focus(true);
+   input.focus(false);
    setCursorPosition(3, input);
 });
 
