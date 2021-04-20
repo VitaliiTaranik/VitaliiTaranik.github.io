@@ -91,23 +91,23 @@
    .menu__inner{
       display: none;
       position: absolute;
-      top: 25%;
-      left: 25%;
+      top: 70px;
+      right: 0;
       padding: 20px;
       background: var(--color-akcent);
       box-shadow: 0px 0px 7px 1px #000;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
+      border-radius: 0px 0px 0px 80px;
+      -webkit-border-radius: 0px 0px 0px 80px;
+      -moz-border-radius: 0px 0px 0px 80px;
+      -ms-border-radius: 0px 0px 0px 80px;
+      -o-border-radius: 0px 0px 0px 80px;
       transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
       z-index: 1;
-   }
+}
    .menu__items{
       flex-direction: column;
    }
