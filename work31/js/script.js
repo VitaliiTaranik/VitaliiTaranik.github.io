@@ -10,7 +10,7 @@ function setCursorPosition(pos, e) {
    }
 }
 
-function mask(e) {
+/*function mask(e) {
    //console.log('mask',e);
    var matrix = this.placeholder,// .defaultValue
       i = 0,
@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", function () {
    input.addEventListener("input", mask, false);
    input.focus(false);
    setCursorPosition(3, input);
-});
+});*/
 
 var accordion = function () {
    var data = $(".accordion").attr("data-accordion");
