@@ -1,4 +1,4 @@
-function setCursorPosition(pos, e) {
+/*function setCursorPosition(pos, e) {
    e.focus();
    if (e.setSelectionRange) e.setSelectionRange(pos, pos);
    else if (e.createTextRange) {
@@ -10,7 +10,7 @@ function setCursorPosition(pos, e) {
    }
 }
 
-/*function mask(e) {
+function mask(e) {
    //console.log('mask',e);
    var matrix = this.placeholder,// .defaultValue
       i = 0,
