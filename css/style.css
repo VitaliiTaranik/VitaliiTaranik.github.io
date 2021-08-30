@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
 .left{text-align: left;}
 .right{text-align: right;}
 .clearfix:after{content:'';display: block;clear: both;}
-	
+
 /********* FONTS ( ШРИФТЫ )***************/
 /********* FONTS END ***********/
 
@@ -35,10 +35,10 @@ h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
 	position: fixed;
 	top: 0;
 	left: 0;
-	min-width: 100%; 
+	min-width: 100%;
 	min-height: 100%;
 	width: auto;
-	height: auto; 
+	height: auto;
 	z-index: -6;
 }
 
@@ -380,7 +380,7 @@ ul li:nth-child(5) a span::after{
 }
 
 .vk__bg{
-	background: #6383A8;	
+	background: #6383A8;
 }
 */
 
@@ -657,6 +657,11 @@ ul li:nth-child(5) a span::after{
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 }
+.work-32{
+	background: url(../img/works/work32.png) no-repeat center;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 140%;
+}
 
 .project-category{
 	display: block;
@@ -785,9 +790,6 @@ ul li:nth-child(5) a span::after{
 	margin: 0;
 }
 
-.footer-menu{
-}
-
 .footer-menu-list__item,.footer-menu-button{
 	color: #8d8d8e;
 }
@@ -826,7 +828,7 @@ ul li:nth-child(5) a span::after{
 	color: #fff;
    border-radius: 50%;
 }
- 
+
 .back-top a:hover{
 	color: #fff;
 	background: #000;
